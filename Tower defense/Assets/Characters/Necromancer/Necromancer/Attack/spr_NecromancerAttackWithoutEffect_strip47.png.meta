@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -115,7 +115,994 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 48
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bffb393ccb5624eab2abdf7ed3dcdc
+      internalID: -422188156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 48
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc2e6439f0b8184da979281b2f2de8a
+      internalID: -2015356627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 48
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e695afcc290456a4385bb011b6404199
+      internalID: 1433174944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 48
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7e40c5ca3bc4848ba36aa314246efd
+      internalID: 524701610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_4
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 48
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2883b102a97d524a9578c0dd03eaf08
+      internalID: -1616354842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_5
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 48
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d238c19ea632040a3e9908f2ca33d2
+      internalID: -1134835899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_6
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 48
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46e18ede7aea854aab621add8c0b0aa
+      internalID: -651857187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_7
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 48
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd94a593803ef54c9ba8c1137bccc3c
+      internalID: -441692027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_8
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 48
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1109e6c38b7ba48b60ff5513a40e2e
+      internalID: 1652235904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_9
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 48
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98a5fae2718376458af70fd0782e16e
+      internalID: -540016867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_10
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 48
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4b2fd08f367e142ac2b522ff319d4b
+      internalID: 490026019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_11
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 48
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abeb1be50631fee4b897efd10cd6d005
+      internalID: -388937043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_12
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 48
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454c21ff31494e64c9ba9161a234f1cc
+      internalID: 1319806113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_13
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 48
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997be74f6731e0743ad6198178dce138
+      internalID: -1151581277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_14
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 48
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e128d3886aa9564d96c2365d8111233
+      internalID: -804858246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_15
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 48
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd1b79a8b316f0419afff5703f6da42
+      internalID: 39614812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_16
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 48
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216cdd1d982ef2c49851f35d20516a43
+      internalID: -1432552524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_17
+      rect:
+        serializedVersion: 2
+        x: 2225
+        y: 48
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ddb768bf23bb4429398581378f5a4d
+      internalID: -1469750671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_18
+      rect:
+        serializedVersion: 2
+        x: 2353
+        y: 48
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a89df5d72436d74983b9fd80dc7281e
+      internalID: 321935199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_19
+      rect:
+        serializedVersion: 2
+        x: 2481
+        y: 48
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88e8053df35a704e90cc2acb5ea7039
+      internalID: -1503965684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_20
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 48
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f48181409d99c43b9a2cf92779baa8
+      internalID: 1295694202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_21
+      rect:
+        serializedVersion: 2
+        x: 2737
+        y: 48
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85090a1fb5cccf04faeff7b898da0812
+      internalID: -1483278783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_22
+      rect:
+        serializedVersion: 2
+        x: 2865
+        y: 48
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5265169f429e0341942af43ff5a9d9c
+      internalID: 1673001202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_23
+      rect:
+        serializedVersion: 2
+        x: 2993
+        y: 48
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6d40339b261a147974b516d1e79183
+      internalID: 2117215988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_24
+      rect:
+        serializedVersion: 2
+        x: 3121
+        y: 48
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb34e840b099dd459ba529690e9eaa4
+      internalID: -1416071734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_25
+      rect:
+        serializedVersion: 2
+        x: 3249
+        y: 48
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2740ad27a5600c47840ce128ad973df
+      internalID: 283829158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_26
+      rect:
+        serializedVersion: 2
+        x: 3377
+        y: 48
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca463012a5fbc84ea3d40bcbcd896a2
+      internalID: -344838879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_27
+      rect:
+        serializedVersion: 2
+        x: 3505
+        y: 48
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1e13ea490336d46a5c6173f8b6b3be
+      internalID: 336407502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_28
+      rect:
+        serializedVersion: 2
+        x: 3633
+        y: 48
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8135b8225494d46a144cec9dbe1923
+      internalID: -1942110379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_29
+      rect:
+        serializedVersion: 2
+        x: 3761
+        y: 48
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76898bffea98ee478f7bc09d271e0ba
+      internalID: 125534018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_30
+      rect:
+        serializedVersion: 2
+        x: 3889
+        y: 48
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f9b61a6bf77494a9d7eb56d26e00dd
+      internalID: -628561153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_31
+      rect:
+        serializedVersion: 2
+        x: 4017
+        y: 48
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e456256d13190ad42a0afccfe5ce4121
+      internalID: -1837692869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_32
+      rect:
+        serializedVersion: 2
+        x: 4145
+        y: 48
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c430a50a55ce224c92c78a9450e8649
+      internalID: -2141842957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_33
+      rect:
+        serializedVersion: 2
+        x: 4273
+        y: 48
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c020b10b6fe734995d8b8bab2395ed
+      internalID: -177300325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_34
+      rect:
+        serializedVersion: 2
+        x: 4401
+        y: 48
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca100c06b00a08479d2576f5ece8374
+      internalID: -1449216147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_35
+      rect:
+        serializedVersion: 2
+        x: 4529
+        y: 48
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d2e36ae85406d429a22289301b9b9d
+      internalID: 615982050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_36
+      rect:
+        serializedVersion: 2
+        x: 4657
+        y: 48
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441f7cc4c8e1ce04facedf9d987739c0
+      internalID: 1767902914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_37
+      rect:
+        serializedVersion: 2
+        x: 4785
+        y: 48
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c287bfc0ebb48d498b94f763cec2c66
+      internalID: 537515095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_38
+      rect:
+        serializedVersion: 2
+        x: 4913
+        y: 48
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ccd343fbec78a489f2d68dcbdb1389
+      internalID: -2099656101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_39
+      rect:
+        serializedVersion: 2
+        x: 5041
+        y: 48
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631b8efd5b155d94c9502ae8f0e8e89b
+      internalID: 1001475320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_40
+      rect:
+        serializedVersion: 2
+        x: 5169
+        y: 48
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5029e8c94ddfd489596443d305eca2
+      internalID: 35265519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_41
+      rect:
+        serializedVersion: 2
+        x: 5297
+        y: 48
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d828dbed0b5b64eb036180a3fd1f3c
+      internalID: 532218597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_42
+      rect:
+        serializedVersion: 2
+        x: 5425
+        y: 48
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96197a80e2e60bb4ba0197a4e1ffee54
+      internalID: -564080486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_43
+      rect:
+        serializedVersion: 2
+        x: 5553
+        y: 48
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4418687be04c35458458ad816541907
+      internalID: 2079578482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_44
+      rect:
+        serializedVersion: 2
+        x: 5681
+        y: 48
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0449ea3b56224c1479410e24d53734e9
+      internalID: -146792413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_45
+      rect:
+        serializedVersion: 2
+        x: 5809
+        y: 48
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6368977a844e804bbda7dcaaaae9d66
+      internalID: -1751719610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_NecromancerAttackWithoutEffect_strip47_46
+      rect:
+        serializedVersion: 2
+        x: 5937
+        y: 48
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b730ae634cb1d498064f47bfd66d89
+      internalID: 697073408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +1113,54 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_NecromancerAttackWithoutEffect_strip47_0: -422188156
+      spr_NecromancerAttackWithoutEffect_strip47_1: -2015356627
+      spr_NecromancerAttackWithoutEffect_strip47_10: 490026019
+      spr_NecromancerAttackWithoutEffect_strip47_11: -388937043
+      spr_NecromancerAttackWithoutEffect_strip47_12: 1319806113
+      spr_NecromancerAttackWithoutEffect_strip47_13: -1151581277
+      spr_NecromancerAttackWithoutEffect_strip47_14: -804858246
+      spr_NecromancerAttackWithoutEffect_strip47_15: 39614812
+      spr_NecromancerAttackWithoutEffect_strip47_16: -1432552524
+      spr_NecromancerAttackWithoutEffect_strip47_17: -1469750671
+      spr_NecromancerAttackWithoutEffect_strip47_18: 321935199
+      spr_NecromancerAttackWithoutEffect_strip47_19: -1503965684
+      spr_NecromancerAttackWithoutEffect_strip47_2: 1433174944
+      spr_NecromancerAttackWithoutEffect_strip47_20: 1295694202
+      spr_NecromancerAttackWithoutEffect_strip47_21: -1483278783
+      spr_NecromancerAttackWithoutEffect_strip47_22: 1673001202
+      spr_NecromancerAttackWithoutEffect_strip47_23: 2117215988
+      spr_NecromancerAttackWithoutEffect_strip47_24: -1416071734
+      spr_NecromancerAttackWithoutEffect_strip47_25: 283829158
+      spr_NecromancerAttackWithoutEffect_strip47_26: -344838879
+      spr_NecromancerAttackWithoutEffect_strip47_27: 336407502
+      spr_NecromancerAttackWithoutEffect_strip47_28: -1942110379
+      spr_NecromancerAttackWithoutEffect_strip47_29: 125534018
+      spr_NecromancerAttackWithoutEffect_strip47_3: 524701610
+      spr_NecromancerAttackWithoutEffect_strip47_30: -628561153
+      spr_NecromancerAttackWithoutEffect_strip47_31: -1837692869
+      spr_NecromancerAttackWithoutEffect_strip47_32: -2141842957
+      spr_NecromancerAttackWithoutEffect_strip47_33: -177300325
+      spr_NecromancerAttackWithoutEffect_strip47_34: -1449216147
+      spr_NecromancerAttackWithoutEffect_strip47_35: 615982050
+      spr_NecromancerAttackWithoutEffect_strip47_36: 1767902914
+      spr_NecromancerAttackWithoutEffect_strip47_37: 537515095
+      spr_NecromancerAttackWithoutEffect_strip47_38: -2099656101
+      spr_NecromancerAttackWithoutEffect_strip47_39: 1001475320
+      spr_NecromancerAttackWithoutEffect_strip47_4: -1616354842
+      spr_NecromancerAttackWithoutEffect_strip47_40: 35265519
+      spr_NecromancerAttackWithoutEffect_strip47_41: 532218597
+      spr_NecromancerAttackWithoutEffect_strip47_42: -564080486
+      spr_NecromancerAttackWithoutEffect_strip47_43: 2079578482
+      spr_NecromancerAttackWithoutEffect_strip47_44: -146792413
+      spr_NecromancerAttackWithoutEffect_strip47_45: -1751719610
+      spr_NecromancerAttackWithoutEffect_strip47_46: 697073408
+      spr_NecromancerAttackWithoutEffect_strip47_5: -1134835899
+      spr_NecromancerAttackWithoutEffect_strip47_6: -651857187
+      spr_NecromancerAttackWithoutEffect_strip47_7: -441692027
+      spr_NecromancerAttackWithoutEffect_strip47_8: 1652235904
+      spr_NecromancerAttackWithoutEffect_strip47_9: -540016867
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

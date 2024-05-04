@@ -222,10 +222,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   oroInicial: 0
   tasaIncrementoOro: 1
-  costoTropa: -2
   tropaPrefab: {fileID: 674509047}
   puntoDespliegueTropa: {fileID: 719129159}
-  tropa: 3
 --- !u!1 &205919641
 GameObject:
   m_ObjectHideFlags: 0
@@ -589,10 +587,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   oroInicial: 0
   tasaIncrementoOro: 1
-  costoTropa: -2
   tropaPrefab: {fileID: 0}
   puntoDespliegueTropa: {fileID: 0}
-  tropa: 2
 --- !u!1 &1309391140
 GameObject:
   m_ObjectHideFlags: 0
@@ -727,10 +723,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   oroInicial: 0
   tasaIncrementoOro: 1
-  costoTropa: 2
   tropaPrefab: {fileID: 674509047}
   puntoDespliegueTropa: {fileID: 719129159}
-  tropa: 1
 --- !u!212 &1396510169
 SpriteRenderer:
   m_ObjectHideFlags: 0

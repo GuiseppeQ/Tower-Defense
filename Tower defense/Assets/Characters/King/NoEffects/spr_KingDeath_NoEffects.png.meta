@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -115,7 +115,1204 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 52
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb988cb12d8a8fb459a6441cd6f3a8c5
+      internalID: -2094455615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 52
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553f6ee152b907549b4f3d27dca406c1
+      internalID: -819714188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 52
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc857d2ddd1d9b46b32090f25a4e8e6
+      internalID: 506247950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_3
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 52
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37af7288b1b19d446b31a50930f701bf
+      internalID: -1190912927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_4
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 52
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c06a81576c869c4bb2ea679dd58f0a2
+      internalID: -1072327705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_5
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 87
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c632a92d2bb464282cf2305052a481
+      internalID: 166343517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_6
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 87
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354c0f2e425a9674d829411d151e9410
+      internalID: -680475037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_7
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 87
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33ee7ab50713244aa3b5756a8562197
+      internalID: -806896857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_8
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 87
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25a8bba8df88724bacd2e7777f0fd44
+      internalID: -881443900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_9
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 87
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7cc987bcf4ac44ea1fba62d7a53939
+      internalID: -1332933065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_10
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 87
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180c084b372c2cc4f9a8c794d54cb831
+      internalID: -1774714504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_11
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 87
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47acb3ab83bb24c458501a1183024f2b
+      internalID: -1395205075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_12
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 87
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fee9ffbd1fede8439fe5981f8e925d4
+      internalID: -1018370158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_13
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 87
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb78de1cf4633f4b9f0f036ab8af01f
+      internalID: -217104024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_14
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 86
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb2d31ea19b0694b8fc7dca53bc346d
+      internalID: 2091864566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_15
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 52
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5fa33e151ab3543b97ad35c0b4b24c
+      internalID: 863203763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_16
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 52
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb836ca3afe993644994848ac1374caa
+      internalID: 225991038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_17
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 74
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5789d49a0f4896b44865c9e966bffea6
+      internalID: -541534189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_18
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 74
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66c3960b649f49429e51b5d9111aaac
+      internalID: 1321767330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_19
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 74
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553cb91fa6fb425458f323d2ae123c17
+      internalID: -206665768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_20
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 74
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826d698d97384bd4694bd793b9564c75
+      internalID: -503651660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_21
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 74
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1ed8025eff86b4d94c356fcd0c497a
+      internalID: -1210873840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_22
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 73
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c51639f22d8b26419008d18af4e4379
+      internalID: -1551926663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_23
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 76
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea50868bd0b21c4ea97249f9bce61c8
+      internalID: -1511171166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_24
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 52
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aebdeca8aed67946b0f3a9507e0efbc
+      internalID: -2014696664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_25
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 66
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f98fc0fb68220469c5dc1461da471e
+      internalID: -631492302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_26
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 52
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d050e25ca085254cae75e8ac9a0d383
+      internalID: -1996056644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_27
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 52
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87db46141993f224782648eac1d7b6d3
+      internalID: 1545094742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_28
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 52
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54929660bd417344a160e967be068af
+      internalID: 794249119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_29
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 63
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1cf2d847b18cec48a8491c3c4f056e7
+      internalID: 1775620765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_30
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 63
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3df0f019ea33a34fbcd54d43b12abc4
+      internalID: -275487169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_31
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 62
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0efdfc27ed695a43a3e8790b9fb10ed
+      internalID: 964429940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_32
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 52
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7fe2a225b88d0468791997cee5c866
+      internalID: 945028451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_33
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 52
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de12219913e745341b0efefe028665d5
+      internalID: -797336459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_34
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 52
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12541b190e24e7241afa017bac29d548
+      internalID: 707682658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_35
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 52
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9304b6aff87e6a14eab6c009ea1d1803
+      internalID: -71048590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_36
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 52
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18551347f2b75d34b8c295e87899989a
+      internalID: 1669430394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_37
+      rect:
+        serializedVersion: 2
+        x: 2234
+        y: 52
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45526d66d2d15b459a530272f3e5c67
+      internalID: 1493675311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_38
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 52
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328b80b566972f045b0c5ce1b3afdadc
+      internalID: -2027934845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_39
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 52
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013e0d07faba0684ca80c9124ed6ca20
+      internalID: 1849073335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_40
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 52
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4b3c0437bb83647a19c9e73ec7e34f
+      internalID: 2086773562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_41
+      rect:
+        serializedVersion: 2
+        x: 2746
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ce7a5d185b8cf4c9fc970a1edeaa27
+      internalID: 390176860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_42
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317fdc8d5f2462146ba0021cf53a9b45
+      internalID: 881578595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_43
+      rect:
+        serializedVersion: 2
+        x: 3002
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2950148da2d38194894fe69637b76a52
+      internalID: 1514323083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_44
+      rect:
+        serializedVersion: 2
+        x: 3130
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707595a3bff622741bcb380b8a2a5e94
+      internalID: -647565323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_45
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2edc6d3f5628b849a8e35a84178a7da
+      internalID: 1394105695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_46
+      rect:
+        serializedVersion: 2
+        x: 3386
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521508549e5857a41973474c66464216
+      internalID: -419166781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_47
+      rect:
+        serializedVersion: 2
+        x: 3514
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ea2d054f225c24fa1502b956989b98
+      internalID: -101491734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_48
+      rect:
+        serializedVersion: 2
+        x: 3642
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d6f50de6eb6ef4d9928d4d0876a5c2
+      internalID: 2010088038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_49
+      rect:
+        serializedVersion: 2
+        x: 3770
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61606e2339bd9c4aa2b28dad394cea6
+      internalID: 319210739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_50
+      rect:
+        serializedVersion: 2
+        x: 3898
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f431ccf0b82f948ae82bf2897e0017
+      internalID: -474554341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_51
+      rect:
+        serializedVersion: 2
+        x: 4026
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfb105cc25d8d24f8e6dee211d64008
+      internalID: -1886597480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_52
+      rect:
+        serializedVersion: 2
+        x: 4154
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add3cfccdd2b8e446b52fe7606345233
+      internalID: 280419537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_53
+      rect:
+        serializedVersion: 2
+        x: 4282
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680ca2e8fb2c64049a180052b63436dd
+      internalID: -2084345361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_54
+      rect:
+        serializedVersion: 2
+        x: 4410
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657456629cd53984f9be21d1cbe3354b
+      internalID: 261333400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_55
+      rect:
+        serializedVersion: 2
+        x: 4538
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715b0baae6a810a4cbe681aa0524df8d
+      internalID: 1702748617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_NoEffects_56
+      rect:
+        serializedVersion: 2
+        x: 4666
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c212ea5581b9c4a91c203814981d9a
+      internalID: -1064044042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +1323,64 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_KingDeath_NoEffects_0: -2094455615
+      spr_KingDeath_NoEffects_1: -819714188
+      spr_KingDeath_NoEffects_10: -1774714504
+      spr_KingDeath_NoEffects_11: -1395205075
+      spr_KingDeath_NoEffects_12: -1018370158
+      spr_KingDeath_NoEffects_13: -217104024
+      spr_KingDeath_NoEffects_14: 2091864566
+      spr_KingDeath_NoEffects_15: 863203763
+      spr_KingDeath_NoEffects_16: 225991038
+      spr_KingDeath_NoEffects_17: -541534189
+      spr_KingDeath_NoEffects_18: 1321767330
+      spr_KingDeath_NoEffects_19: -206665768
+      spr_KingDeath_NoEffects_2: 506247950
+      spr_KingDeath_NoEffects_20: -503651660
+      spr_KingDeath_NoEffects_21: -1210873840
+      spr_KingDeath_NoEffects_22: -1551926663
+      spr_KingDeath_NoEffects_23: -1511171166
+      spr_KingDeath_NoEffects_24: -2014696664
+      spr_KingDeath_NoEffects_25: -631492302
+      spr_KingDeath_NoEffects_26: -1996056644
+      spr_KingDeath_NoEffects_27: 1545094742
+      spr_KingDeath_NoEffects_28: 794249119
+      spr_KingDeath_NoEffects_29: 1775620765
+      spr_KingDeath_NoEffects_3: -1190912927
+      spr_KingDeath_NoEffects_30: -275487169
+      spr_KingDeath_NoEffects_31: 964429940
+      spr_KingDeath_NoEffects_32: 945028451
+      spr_KingDeath_NoEffects_33: -797336459
+      spr_KingDeath_NoEffects_34: 707682658
+      spr_KingDeath_NoEffects_35: -71048590
+      spr_KingDeath_NoEffects_36: 1669430394
+      spr_KingDeath_NoEffects_37: 1493675311
+      spr_KingDeath_NoEffects_38: -2027934845
+      spr_KingDeath_NoEffects_39: 1849073335
+      spr_KingDeath_NoEffects_4: -1072327705
+      spr_KingDeath_NoEffects_40: 2086773562
+      spr_KingDeath_NoEffects_41: 390176860
+      spr_KingDeath_NoEffects_42: 881578595
+      spr_KingDeath_NoEffects_43: 1514323083
+      spr_KingDeath_NoEffects_44: -647565323
+      spr_KingDeath_NoEffects_45: 1394105695
+      spr_KingDeath_NoEffects_46: -419166781
+      spr_KingDeath_NoEffects_47: -101491734
+      spr_KingDeath_NoEffects_48: 2010088038
+      spr_KingDeath_NoEffects_49: 319210739
+      spr_KingDeath_NoEffects_5: 166343517
+      spr_KingDeath_NoEffects_50: -474554341
+      spr_KingDeath_NoEffects_51: -1886597480
+      spr_KingDeath_NoEffects_52: 280419537
+      spr_KingDeath_NoEffects_53: -2084345361
+      spr_KingDeath_NoEffects_54: 261333400
+      spr_KingDeath_NoEffects_55: 1702748617
+      spr_KingDeath_NoEffects_56: -1064044042
+      spr_KingDeath_NoEffects_6: -680475037
+      spr_KingDeath_NoEffects_7: -806896857
+      spr_KingDeath_NoEffects_8: -881443900
+      spr_KingDeath_NoEffects_9: -1332933065
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
