@@ -38,9 +38,11 @@ public class Oro : MonoBehaviour
             Debug.Log("¡No tienes suficiente oro!");
         }
     }
-
     void DesplegarTropa()
     {
         Instantiate(tropaPrefab, puntoDespliegueTropa.position, Quaternion.identity);
     }
+
+
+
 }
