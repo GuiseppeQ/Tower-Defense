@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9b5fd89e8f26f58499161c047b380b82
+guid: f6d3a7eb24bdded4a825325c456a6146
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 10
+  spritePixelsToUnits: 17
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 16384
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_0
+      name: NightBorne_0
       rect:
         serializedVersion: 2
-        x: 3401
-        y: 48
-        width: 81
-        height: 73
+        x: 19
+        y: 336
+        width: 35
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcbc2b5b7a8939e438c2156de0b6135b
-      internalID: 1654318181
+      spriteID: 3ea6f1cdff1427a4b872e4f8c92d275b
+      internalID: 2054442987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_1
+      name: NightBorne_1
       rect:
         serializedVersion: 2
-        x: 3564
-        y: 48
-        width: 77
-        height: 73
+        x: 99
+        y: 336
+        width: 35
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e7bcaab63ca0a24d903c40aaa48c96b
-      internalID: -1912047596
+      spriteID: fd4003d8e8cc8f1499b8d3361faab65e
+      internalID: 1438022865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_2
+      name: NightBorne_2
       rect:
         serializedVersion: 2
-        x: 3722
-        y: 48
-        width: 77
-        height: 73
+        x: 179
+        y: 336
+        width: 35
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b2ed83703d1847439b4c5bd273b6d29
-      internalID: -100816659
+      spriteID: cb27f5ecaa023fb49b88ca0e8f472ee8
+      internalID: 600359187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_3
+      name: NightBorne_3
       rect:
         serializedVersion: 2
-        x: 3881
-        y: 48
-        width: 81
-        height: 73
+        x: 259
+        y: 336
+        width: 35
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e4d1b21c47e8cd4e84750d482d796bf
-      internalID: 1019967052
+      spriteID: 30d2e05fa85b41a4a95b22a61da12971
+      internalID: 818500198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_4
+      name: NightBorne_4
       rect:
         serializedVersion: 2
-        x: 4040
-        y: 71
-        width: 66
-        height: 50
+        x: 337
+        y: 336
+        width: 37
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e69b2531fdd4c445a259c24f48f2f42
-      internalID: -352777776
+      spriteID: 33929d36698cf094989b1c4ea590630c
+      internalID: -331289362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_5
+      name: NightBorne_5
       rect:
         serializedVersion: 2
-        x: 6468
-        y: 48
-        width: 55
-        height: 78
+        x: 419
+        y: 336
+        width: 35
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 743a7ad4be8d4a04aa2adcbed046ab33
-      internalID: -1945426465
+      spriteID: 2bfa7eeafff6a6049bd0444f0ac25f1c
+      internalID: 2099722504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_6
+      name: NightBorne_6
       rect:
         serializedVersion: 2
-        x: 6632
-        y: 0
-        width: 49
-        height: 128
+        x: 499
+        y: 336
+        width: 35
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,20 +257,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a138fca03bb8004094c2c9f8bdc7f42
-      internalID: -1055966997
+      spriteID: d7ca76c82012a304787c120706312329
+      internalID: -1766134184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_7
+      name: NightBorne_7
       rect:
         serializedVersion: 2
-        x: 6827
-        y: 117
-        width: 12
-        height: 11
+        x: 579
+        y: 336
+        width: 35
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,20 +278,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02b978e6cd0ee684db47be993fd2f173
-      internalID: 2139391054
+      spriteID: 2ba7e5e154d50ee42a8fa17e1f6a50fc
+      internalID: 1908950748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_8
+      name: NightBorne_8
       rect:
         serializedVersion: 2
-        x: 6310
-        y: 44
-        width: 63
-        height: 73
+        x: 659
+        y: 336
+        width: 35
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,124 +299,187 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 380e68e70fa08884abfaab35353a63e0
-      internalID: 1832465998
+      spriteID: e8f8c88d5ee21964088783e8280619f6
+      internalID: 1753728841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_9
+      name: NightBorne_9
       rect:
         serializedVersion: 2
-        x: 6827
-        y: 103
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c173168e19830f9498a409c38a5a92f1
-      internalID: 2046575416
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_10
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 48
-        width: 27
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 987ae9550f2ada34494ea4383f7c381b
-      internalID: -1466390878
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_11
-      rect:
-        serializedVersion: 2
-        x: 229
-        y: 48
-        width: 22
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4df7a2788997b254c86012d01bbe1266
-      internalID: 1934404625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_12
-      rect:
-        serializedVersion: 2
-        x: 387
-        y: 48
-        width: 23
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2ca4c8f705fb6c4bb7221b5fcaa86de
-      internalID: 866438177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_13
-      rect:
-        serializedVersion: 2
-        x: 542
-        y: 48
-        width: 31
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 459525eb165fb8a44b559e03ab88b3ba
-      internalID: 655630571
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_14
-      rect:
-        serializedVersion: 2
-        x: 696
-        y: 48
+        x: 19
+        y: 257
         width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e681cb7c865cab14ea5d00e469aea400
+      internalID: -1159240130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_10
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 257
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43acc37cebdf7b04da4f5466ddac0d2f
+      internalID: -99584850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_11
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 256
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c6be90a1d67c74bb76ada148f65276
+      internalID: 1848793935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_12
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 257
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ef8205315a1d14485d0c536b291a79
+      internalID: -1002224345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_13
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 256
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11067cb9160b0db468c0d2ee3b69e2cf
+      internalID: -691807311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_14
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 258
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11e717683ab6594ebac4d99e39672fd
+      internalID: -275644545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_15
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 176
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e63ca6b6ee9d54da899c728a659b20
+      internalID: 824707816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_16
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 176
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c042c32249b309469004a9ce4337c6b
+      internalID: 23405778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_17
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 176
+        width: 24
         height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -425,19 +488,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 554e190adcac98d44960b2e926f0cced
-      internalID: -144771590
+      spriteID: 966b810ffbd5a3b4ab90ecc901da8d4d
+      internalID: 201842664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_15
+      name: NightBorne_18
       rect:
         serializedVersion: 2
-        x: 845
-        y: 48
-        width: 45
+        x: 268
+        y: 176
+        width: 23
         height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -446,19 +509,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 875e5a790d5d12d4d9f1ed878e41a043
-      internalID: -716899495
+      spriteID: 19758df23de23e941835ebcc882a0096
+      internalID: -1252436797
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_16
+      name: NightBorne_19
       rect:
         serializedVersion: 2
-        x: 1004
-        y: 48
-        width: 45
+        x: 285
+        y: 188
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a7fb45e9e360b409c4bcd366e95be7
+      internalID: -961116077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_20
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 176
+        width: 26
         height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -467,20 +551,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4002e0cfbea85b945a66e0c4fbf8abea
-      internalID: 1213989441
+      spriteID: 105b882054697ed47ab3cbfba05157dd
+      internalID: 2097270729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_17
+      name: NightBorne_21
       rect:
         serializedVersion: 2
-        x: 1167
-        y: 48
-        width: 45
-        height: 46
+        x: 424
+        y: 176
+        width: 27
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -488,606 +572,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f6b49323c58d374693eff66e6feedcf
-      internalID: -710459192
+      spriteID: 9228ccee4cab0a94cb1cc8601c005dc4
+      internalID: 986297580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_18
+      name: NightBorne_22
       rect:
         serializedVersion: 2
-        x: 1330
-        y: 48
-        width: 41
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0fd9e1a16d5ecde4ea45f41eb7666144
-      internalID: 916053627
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_19
-      rect:
-        serializedVersion: 2
-        x: 1457
-        y: 48
-        width: 72
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94347493784d854418b1b2484d1d674a
-      internalID: 437999451
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_20
-      rect:
-        serializedVersion: 2
-        x: 1634
-        y: 48
-        width: 58
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9fdac7b6068dc1448bb4d6a537c0c382
-      internalID: -329105514
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_21
-      rect:
-        serializedVersion: 2
-        x: 1792
-        y: 48
-        width: 59
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f1bc51409560e14eb9e150b9a1957e9
-      internalID: 1555504161
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_22
-      rect:
-        serializedVersion: 2
-        x: 1951
-        y: 48
-        width: 59
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe12f965def958e479f01af75caa680b
-      internalID: -1870754904
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_23
-      rect:
-        serializedVersion: 2
-        x: 2109
-        y: 48
-        width: 64
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dee51f459f35157408d6d5256272e619
-      internalID: 1014411094
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_24
-      rect:
-        serializedVersion: 2
-        x: 2272
-        y: 48
-        width: 59
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67c9e91404c42b34b890f12b44dc21f4
-      internalID: 353614733
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_25
-      rect:
-        serializedVersion: 2
-        x: 2431
-        y: 48
-        width: 59
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db9799be86cc0274b91dea32e7e64664
-      internalID: 530141968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_26
-      rect:
-        serializedVersion: 2
-        x: 2590
-        y: 48
-        width: 63
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7278df700d106f4498e79864819aa7b2
-      internalID: -934858890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_27
-      rect:
-        serializedVersion: 2
-        x: 2753
-        y: 48
-        width: 59
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a3d70b45c2d2a1448be653ef090bae3
-      internalID: -581379061
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_28
-      rect:
-        serializedVersion: 2
-        x: 2911
-        y: 48
-        width: 59
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5483ed289c4208549a5ce9c2671b6530
-      internalID: -864363141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_29
-      rect:
-        serializedVersion: 2
-        x: 3075
-        y: 48
-        width: 58
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84cc318983538ef44bc78f8d70aa0caf
-      internalID: 2004741267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_30
-      rect:
-        serializedVersion: 2
-        x: 3251
-        y: 48
-        width: 64
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9aba5c574906d1449bf3786fd8dd4129
-      internalID: 955734185
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_31
-      rect:
-        serializedVersion: 2
-        x: 4058
-        y: 48
-        width: 44
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e03d53038976ec24c84a0a17bc45ce51
-      internalID: -2050217767
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_32
-      rect:
-        serializedVersion: 2
-        x: 4216
-        y: 48
-        width: 46
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b07c8d8c82a85a4f94ab0ec62e4d1b8
-      internalID: 70877969
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_33
-      rect:
-        serializedVersion: 2
-        x: 4375
-        y: 48
-        width: 45
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59760afb653346d4f96a1e910c680fb7
-      internalID: -1782262924
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_34
-      rect:
-        serializedVersion: 2
-        x: 4534
-        y: 48
-        width: 45
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: efe44062c3a73404bb297efc7e912d04
-      internalID: 585632498
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_35
-      rect:
-        serializedVersion: 2
-        x: 4697
-        y: 48
-        width: 45
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7eec7161c60d51499ffa340ffe21339
-      internalID: 639450194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_36
-      rect:
-        serializedVersion: 2
-        x: 4855
-        y: 48
-        width: 46
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 444e06657644afb40bd65d88824e4d52
-      internalID: -1532447821
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_37
-      rect:
-        serializedVersion: 2
-        x: 5014
-        y: 48
-        width: 45
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc15aad4128e95f4596300ad1a22cf3d
-      internalID: 715751864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_38
-      rect:
-        serializedVersion: 2
-        x: 5173
-        y: 48
-        width: 49
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 36749e78dffd99c4bbbdf9884399a1dd
-      internalID: 313443905
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_39
-      rect:
-        serializedVersion: 2
-        x: 5336
-        y: 48
-        width: 45
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df2a7af0dbb095f48b18c025266941ba
-      internalID: -930743970
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_40
-      rect:
-        serializedVersion: 2
-        x: 5494
-        y: 48
-        width: 45
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6067fe299284da74284840ab82265e9c
-      internalID: -260135859
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_41
-      rect:
-        serializedVersion: 2
-        x: 5657
-        y: 48
-        width: 45
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 232c2a6e0602aac48922ea3608dac0e0
-      internalID: 2075383218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_42
-      rect:
-        serializedVersion: 2
-        x: 5825
-        y: 48
-        width: 59
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 772d953186e1123459be4917f9a6133e
-      internalID: 537434101
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_43
-      rect:
-        serializedVersion: 2
-        x: 6151
-        y: 48
-        width: 59
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7bf48d3300d3573478d5d66e7c4f69c2
-      internalID: -265621649
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_44
-      rect:
-        serializedVersion: 2
-        x: 6826
-        y: 89
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8628026f10427e844b664f2bfbd455f1
-      internalID: 410849202
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_45
-      rect:
-        serializedVersion: 2
-        x: 7266
-        y: 48
-        width: 45
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f70e88c9fb1bf0c4ebeca8ae888e14f4
-      internalID: -1380067470
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_46
-      rect:
-        serializedVersion: 2
-        x: 7429
-        y: 48
+        x: 504
+        y: 176
         width: 27
         height: 46
       alignment: 0
@@ -1097,230 +593,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 182dbc6a3ba3dce488618fda5e28efbe
-      internalID: 1029815731
+      spriteID: 1b82942da8d4f19458ffa69cd411a6da
+      internalID: 1602944123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_47
+      name: NightBorne_23
       rect:
         serializedVersion: 2
-        x: 7560
-        y: 48
-        width: 55
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 356b6abaf16bfc44d9a7d52beec36792
-      internalID: -1746599297
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_48
-      rect:
-        serializedVersion: 2
-        x: 7719
-        y: 48
-        width: 54
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3808fc5e4b47abe448d3ebfd96fddcb5
-      internalID: 1728593470
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_49
-      rect:
-        serializedVersion: 2
-        x: 7878
-        y: 48
-        width: 54
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b555a48bf99f46c469269834be372718
-      internalID: 164797173
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_50
-      rect:
-        serializedVersion: 2
-        x: 8050
-        y: 48
-        width: 45
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cdec366a1cb1a70409ed1ffac539b660
-      internalID: 2132263065
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_51
-      rect:
-        serializedVersion: 2
-        x: 8181
-        y: 48
-        width: 72
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1843d3bea13e5e9488d11971fc274dcb
-      internalID: 265684872
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_52
-      rect:
-        serializedVersion: 2
-        x: 8372
-        y: 48
-        width: 40
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 085422f3a6d66be48ba132090fee0393
-      internalID: -1537652894
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_53
-      rect:
-        serializedVersion: 2
-        x: 8530
-        y: 48
-        width: 41
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ba16a76b231fb3479d2ab1f2df017d0
-      internalID: -174448484
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_54
-      rect:
-        serializedVersion: 2
-        x: 8689
-        y: 48
-        width: 40
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28a096704e98f3a43ab58d00908d1692
-      internalID: 1141827464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_55
-      rect:
-        serializedVersion: 2
-        x: 8861
-        y: 48
-        width: 32
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: edc63a151e762e04caa6c5c1b6e051ca
-      internalID: -1298836608
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_56
-      rect:
-        serializedVersion: 2
-        x: 9024
-        y: 48
-        width: 32
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c2cd497c9ed7dc40a3117ba2a92d053
-      internalID: 597739155
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_57
-      rect:
-        serializedVersion: 2
-        x: 9187
-        y: 48
+        x: 584
+        y: 176
         width: 27
-        height: 50
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1328,20 +614,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28714b36d8994334d8d5fdf370f1e84f
-      internalID: 1762126057
+      spriteID: eba7441302bbef649820d7f090786e00
+      internalID: -848251630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_58
+      name: NightBorne_24
       rect:
         serializedVersion: 2
-        x: 5988
-        y: 46
-        width: 72
-        height: 43
+        x: 664
+        y: 176
+        width: 27
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1349,20 +635,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e006b40cddabfe40ac65775d6d94088
-      internalID: 1049213497
+      spriteID: 40a22ce656048474bb0d5c7387004299
+      internalID: -1799500906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_59
+      name: NightBorne_25
       rect:
         serializedVersion: 2
-        x: 6790
-        y: 48
+        x: 745
+        y: 170
         width: 54
-        height: 41
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1370,20 +656,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b17eca83e90d56044b129eac1f25238a
-      internalID: -510164396
+      spriteID: 920a06494aa45e44bb96e0ea55fd5f09
+      internalID: 286376667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_60
+      name: NightBorne_26
       rect:
         serializedVersion: 2
-        x: 6949
-        y: 48
-        width: 54
-        height: 41
+        x: 823
+        y: 173
+        width: 46
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1391,20 +677,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c96ee7a8783bb974195ecbc3ea001e7b
-      internalID: -1355810872
+      spriteID: bd85976c2e958e04eb902651a2cacb23
+      internalID: -1232013935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_61
+      name: NightBorne_27
       rect:
         serializedVersion: 2
-        x: 7107
-        y: 48
-        width: 55
-        height: 41
+        x: 901
+        y: 176
+        width: 33
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1412,8 +698,638 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8399d1f89c9cd646bfdc523fce30c74
-      internalID: -867541632
+      spriteID: 53fee5b0b03160143bdf7d39bf93d590
+      internalID: -965923018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_28
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 96
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b29ddab9593aa4c954c88075be6718
+      internalID: -983260777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_29
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 96
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b7c14ca9d55b34bb541912051d5141
+      internalID: 116214865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_30
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 96
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1ecb2d5cddf294ca0286b4ca7bc4e7
+      internalID: 1652891085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_31
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 96
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f8410b59ab03249a94b3acc662d1dc
+      internalID: 1728209213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_32
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 96
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a131a81bcc51ffb489953520aebb28d1
+      internalID: 640512236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_33
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 2
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c48abd4561fe349bf51e7d49acffa5
+      internalID: -1427723530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_34
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 2
+        width: 71
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2cd7c0948bb0334499f10af580ced91
+      internalID: 1102914723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_35
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 3
+        width: 71
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9472dc3ba6e5dde4aa180ce34e62f437
+      internalID: -1628976959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_36
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 52
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1f0bb82fff6514d960b4abc795c4f7
+      internalID: -1097897697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_37
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 7
+        width: 66
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f868e5fd7e912b44d8c86cfb159d1ce7
+      internalID: 609593940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_38
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 53
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d3be3805f87ff4998e4da49c4d49f6
+      internalID: 416337644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_39
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 9
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0def07f643803418c56dcc002606e6
+      internalID: 1388994691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_40
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 16
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3dc3005b39cf04f982c7a70bfd9d2a
+      internalID: 969572182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_41
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 16
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5249e00ad543e794785d07387c184383
+      internalID: 662188872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_42
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 16
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ec9381f2261bf4c9afb524da01d3c4
+      internalID: -1525989711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_43
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 16
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de25a4154edb53a4c9a53315e8ebf6f6
+      internalID: 1006820511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_44
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 16
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6686988d6a9b014f8a261fe4517094f
+      internalID: 1157173412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_45
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 16
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017fda3234dec324d96cda106929edd9
+      internalID: 1530045940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_46
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 16
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f32bdfa09656e4babdb89a9e8b6be5
+      internalID: -1628232579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_47
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 16
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2281360c22286c4429635e51642a3f04
+      internalID: -1683935644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_48
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 16
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7069c27bb3d4467469b82c4bffe5440a
+      internalID: 2129319553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_49
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 10
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ff470c12b3bed49bb9088f04ad967b
+      internalID: 1387265393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_50
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 10
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003ab826f7399af418698d16374064e9
+      internalID: -112151879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_51
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 10
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ee26a6aceb91c44a8ae75f9edcf3f6
+      internalID: 1191426195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_52
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 13
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017cc8b7d7bd2e44288f01e79937eefa
+      internalID: 343508310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_53
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 17
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1abb9441ca1ec4d9a2c5bf8349ad72
+      internalID: 1868931458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_54
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 18
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97b65e16c5789244959324b0b3f7b45
+      internalID: -2068622706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_55
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 25
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fb8e46b0a6e4a49b3f693e52758405
+      internalID: 1616773839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_56
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 24
+        width: 91
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d4d78164b6cd642812a7dc0b4a2fe7
+      internalID: 1769381779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NightBorne_57
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563164c6a0c01184488c08836e6dfc17
+      internalID: 1648630729
       vertices: []
       indices: 
       edges: []
@@ -1429,68 +1345,64 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spr_King2Combo_strip_no_bkg_0: 1654318181
-      spr_King2Combo_strip_no_bkg_1: -1912047596
-      spr_King2Combo_strip_no_bkg_10: -1466390878
-      spr_King2Combo_strip_no_bkg_11: 1934404625
-      spr_King2Combo_strip_no_bkg_12: 866438177
-      spr_King2Combo_strip_no_bkg_13: 655630571
-      spr_King2Combo_strip_no_bkg_14: -144771590
-      spr_King2Combo_strip_no_bkg_15: -716899495
-      spr_King2Combo_strip_no_bkg_16: 1213989441
-      spr_King2Combo_strip_no_bkg_17: -710459192
-      spr_King2Combo_strip_no_bkg_18: 916053627
-      spr_King2Combo_strip_no_bkg_19: 437999451
-      spr_King2Combo_strip_no_bkg_2: -100816659
-      spr_King2Combo_strip_no_bkg_20: -329105514
-      spr_King2Combo_strip_no_bkg_21: 1555504161
-      spr_King2Combo_strip_no_bkg_22: -1870754904
-      spr_King2Combo_strip_no_bkg_23: 1014411094
-      spr_King2Combo_strip_no_bkg_24: 353614733
-      spr_King2Combo_strip_no_bkg_25: 530141968
-      spr_King2Combo_strip_no_bkg_26: -934858890
-      spr_King2Combo_strip_no_bkg_27: -581379061
-      spr_King2Combo_strip_no_bkg_28: -864363141
-      spr_King2Combo_strip_no_bkg_29: 2004741267
-      spr_King2Combo_strip_no_bkg_3: 1019967052
-      spr_King2Combo_strip_no_bkg_30: 955734185
-      spr_King2Combo_strip_no_bkg_31: -2050217767
-      spr_King2Combo_strip_no_bkg_32: 70877969
-      spr_King2Combo_strip_no_bkg_33: -1782262924
-      spr_King2Combo_strip_no_bkg_34: 585632498
-      spr_King2Combo_strip_no_bkg_35: 639450194
-      spr_King2Combo_strip_no_bkg_36: -1532447821
-      spr_King2Combo_strip_no_bkg_37: 715751864
-      spr_King2Combo_strip_no_bkg_38: 313443905
-      spr_King2Combo_strip_no_bkg_39: -930743970
-      spr_King2Combo_strip_no_bkg_4: -352777776
-      spr_King2Combo_strip_no_bkg_40: -260135859
-      spr_King2Combo_strip_no_bkg_41: 2075383218
-      spr_King2Combo_strip_no_bkg_42: 537434101
-      spr_King2Combo_strip_no_bkg_43: -265621649
-      spr_King2Combo_strip_no_bkg_44: 410849202
-      spr_King2Combo_strip_no_bkg_45: -1380067470
-      spr_King2Combo_strip_no_bkg_46: 1029815731
-      spr_King2Combo_strip_no_bkg_47: -1746599297
-      spr_King2Combo_strip_no_bkg_48: 1728593470
-      spr_King2Combo_strip_no_bkg_49: 164797173
-      spr_King2Combo_strip_no_bkg_5: -1945426465
-      spr_King2Combo_strip_no_bkg_50: 2132263065
-      spr_King2Combo_strip_no_bkg_51: 265684872
-      spr_King2Combo_strip_no_bkg_52: -1537652894
-      spr_King2Combo_strip_no_bkg_53: -174448484
-      spr_King2Combo_strip_no_bkg_54: 1141827464
-      spr_King2Combo_strip_no_bkg_55: -1298836608
-      spr_King2Combo_strip_no_bkg_56: 597739155
-      spr_King2Combo_strip_no_bkg_57: 1762126057
-      spr_King2Combo_strip_no_bkg_58: 1049213497
-      spr_King2Combo_strip_no_bkg_59: -510164396
-      spr_King2Combo_strip_no_bkg_6: -1055966997
-      spr_King2Combo_strip_no_bkg_60: -1355810872
-      spr_King2Combo_strip_no_bkg_61: -867541632
-      spr_King2Combo_strip_no_bkg_7: 2139391054
-      spr_King2Combo_strip_no_bkg_8: 1832465998
-      spr_King2Combo_strip_no_bkg_9: 2046575416
+      NightBorne_0: 2054442987
+      NightBorne_1: 1438022865
+      NightBorne_10: -99584850
+      NightBorne_11: 1848793935
+      NightBorne_12: -1002224345
+      NightBorne_13: -691807311
+      NightBorne_14: -275644545
+      NightBorne_15: 824707816
+      NightBorne_16: 23405778
+      NightBorne_17: 201842664
+      NightBorne_18: -1252436797
+      NightBorne_19: -961116077
+      NightBorne_2: 600359187
+      NightBorne_20: 2097270729
+      NightBorne_21: 986297580
+      NightBorne_22: 1602944123
+      NightBorne_23: -848251630
+      NightBorne_24: -1799500906
+      NightBorne_25: 286376667
+      NightBorne_26: -1232013935
+      NightBorne_27: -965923018
+      NightBorne_28: -983260777
+      NightBorne_29: 116214865
+      NightBorne_3: 818500198
+      NightBorne_30: 1652891085
+      NightBorne_31: 1728209213
+      NightBorne_32: 640512236
+      NightBorne_33: -1427723530
+      NightBorne_34: 1102914723
+      NightBorne_35: -1628976959
+      NightBorne_36: -1097897697
+      NightBorne_37: 609593940
+      NightBorne_38: 416337644
+      NightBorne_39: 1388994691
+      NightBorne_4: -331289362
+      NightBorne_40: 969572182
+      NightBorne_41: 662188872
+      NightBorne_42: -1525989711
+      NightBorne_43: 1006820511
+      NightBorne_44: 1157173412
+      NightBorne_45: 1530045940
+      NightBorne_46: -1628232579
+      NightBorne_47: -1683935644
+      NightBorne_48: 2129319553
+      NightBorne_49: 1387265393
+      NightBorne_5: 2099722504
+      NightBorne_50: -112151879
+      NightBorne_51: 1191426195
+      NightBorne_52: 343508310
+      NightBorne_53: 1868931458
+      NightBorne_54: -2068622706
+      NightBorne_55: 1616773839
+      NightBorne_56: 1769381779
+      NightBorne_57: 1648630729
+      NightBorne_6: -1766134184
+      NightBorne_7: 1908950748
+      NightBorne_8: 1753728841
+      NightBorne_9: -1159240130
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

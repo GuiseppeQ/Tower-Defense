@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9b5fd89e8f26f58499161c047b380b82
+guid: 588579d8d8f41244790390a343e43e3e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 16384
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_0
+      name: spr_KingDeath_strip_no_bkg_0
       rect:
         serializedVersion: 2
-        x: 3401
-        y: 48
-        width: 81
-        height: 73
+        x: 56
+        y: 52
+        width: 16
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcbc2b5b7a8939e438c2156de0b6135b
-      internalID: 1654318181
+      spriteID: a4dcd31b063b5bb44b01586fe4f7f2e2
+      internalID: -542348168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_1
+      name: spr_KingDeath_strip_no_bkg_1
       rect:
         serializedVersion: 2
-        x: 3564
-        y: 48
-        width: 77
-        height: 73
+        x: 184
+        y: 52
+        width: 16
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e7bcaab63ca0a24d903c40aaa48c96b
-      internalID: -1912047596
+      spriteID: 82ab05a9a15f89d4a98fd2f62349d9b3
+      internalID: -1388980862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_2
+      name: spr_KingDeath_strip_no_bkg_2
       rect:
         serializedVersion: 2
-        x: 3722
-        y: 48
-        width: 77
-        height: 73
+        x: 312
+        y: 52
+        width: 16
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b2ed83703d1847439b4c5bd273b6d29
-      internalID: -100816659
+      spriteID: cb34fa124b2229e4d9063043583be4ab
+      internalID: -378199420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_3
+      name: spr_KingDeath_strip_no_bkg_3
       rect:
         serializedVersion: 2
-        x: 3881
-        y: 48
-        width: 81
-        height: 73
+        x: 440
+        y: 52
+        width: 16
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e4d1b21c47e8cd4e84750d482d796bf
-      internalID: 1019967052
+      spriteID: 5501929347f34084184a05d722df367c
+      internalID: 164600514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_4
+      name: spr_KingDeath_strip_no_bkg_4
       rect:
         serializedVersion: 2
-        x: 4040
-        y: 71
-        width: 66
-        height: 50
+        x: 568
+        y: 52
+        width: 16
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e69b2531fdd4c445a259c24f48f2f42
-      internalID: -352777776
+      spriteID: 6621b8e4725f1124d9e197d863f64dbc
+      internalID: -2104011138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_5
+      name: spr_KingDeath_strip_no_bkg_5
       rect:
         serializedVersion: 2
-        x: 6468
-        y: 48
-        width: 55
-        height: 78
+        x: 702
+        y: 87
+        width: 7
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 743a7ad4be8d4a04aa2adcbed046ab33
-      internalID: -1945426465
+      spriteID: 775a8a283b9b9924db051af42b7eba45
+      internalID: 1632562451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_6
+      name: spr_KingDeath_strip_no_bkg_6
       rect:
         serializedVersion: 2
-        x: 6632
-        y: 0
-        width: 49
-        height: 128
+        x: 830
+        y: 87
+        width: 7
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,19 +257,271 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a138fca03bb8004094c2c9f8bdc7f42
-      internalID: -1055966997
+      spriteID: ce43ff97152ead249a3d9fa17bc63667
+      internalID: -723540009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_7
+      name: spr_KingDeath_strip_no_bkg_7
       rect:
         serializedVersion: 2
-        x: 6827
-        y: 117
+        x: 958
+        y: 87
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74284404388f65a49b2dfec161f561f1
+      internalID: 427288987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_8
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 87
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497b80a4029c19141b6e31ea80dd87e2
+      internalID: -1723156183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_9
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 87
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2555d8e27ee0a8f46b06d052c1ddf5ef
+      internalID: 1503577935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_10
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 87
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f2c566ce54944469d774a786388185
+      internalID: -415911581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_11
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 87
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32561f8452968db4c95ae7c7561ed9d3
+      internalID: 473151307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_12
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 87
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45efbb50d8c91134ba24eeb2f14895ce
+      internalID: 1397766041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_13
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 87
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480dc1689a364ec45aa43c270020c67f
+      internalID: -2074960468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_14
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 86
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f94a87866e72f41a634d1575111e19
+      internalID: -2007639504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_15
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 52
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa126f73f50a91543ad3eb62d69b85b0
+      internalID: 512571871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_16
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 52
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d4697d72c32bf4980a66552117feaa
+      internalID: 808255184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_17
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 73
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad858b9f80a3504090e65c3f8a77666
+      internalID: -195979870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_18
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 72
         width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85489a523c42c84882c3e8460a22d39
+      internalID: -2078325346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_19
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 74
+        width: 11
         height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -278,20 +530,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02b978e6cd0ee684db47be993fd2f173
-      internalID: 2139391054
+      spriteID: 18153c83dcc565f4ab459855b478f94d
+      internalID: 459819129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_8
+      name: spr_KingDeath_strip_no_bkg_20
       rect:
         serializedVersion: 2
-        x: 6310
-        y: 44
-        width: 63
-        height: 73
+        x: 1211
+        y: 74
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,20 +551,146 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 380e68e70fa08884abfaab35353a63e0
-      internalID: 1832465998
+      spriteID: d42aab4f7d069334ba742cce2785b114
+      internalID: 206442587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_9
+      name: spr_KingDeath_strip_no_bkg_21
       rect:
         serializedVersion: 2
-        x: 6827
-        y: 103
+        x: 1339
+        y: 74
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53b2c4af5d431e4684fe29a41f52224
+      internalID: 1466094150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_22
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 74
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e71d05fbd30ec4b83428d6b2f4de44
+      internalID: -290715209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_23
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 73
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff35d34e8f5f234ca1ad6fef9474016
+      internalID: -1107900468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_24
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 76
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c145ce537766ef14896623d535bca6fe
+      internalID: 774655304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_25
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 52
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235203e27cfa7cd47b44eeabd66b376d
+      internalID: -99537365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_26
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 66
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360560d9a3045554da2d391624191d33
+      internalID: -1320546714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_27
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 52
         width: 13
-        height: 13
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,20 +698,146 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c173168e19830f9498a409c38a5a92f1
-      internalID: 2046575416
+      spriteID: 028f7930e7a62e943945a9b2ee1e714a
+      internalID: 1553823935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_10
+      name: spr_KingDeath_strip_no_bkg_28
       rect:
         serializedVersion: 2
-        x: 66
+        x: 1081
+        y: 52
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876a9d0a718b4cc45ba746772cac4169
+      internalID: 1870445756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_29
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 52
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d97f3c4326f424aa42e6da48da86a3
+      internalID: 1384530015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_30
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 63
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8d2fa6fbf45664abb62d67a7dccc48
+      internalID: -2041597775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_31
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 63
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1e30b744ae64b4798c2abf46884660
+      internalID: 399820756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_32
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 62
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1306a7f1653938044bc19ed536002ad5
+      internalID: -1490826948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_33
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 52
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0051dbbc1d169894996972b00dc9c997
+      internalID: 2116409956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_34
+      rect:
+        serializedVersion: 2
+        x: 4410
         y: 48
-        width: 27
-        height: 50
+        width: 15
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,1007 +845,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 987ae9550f2ada34494ea4383f7c381b
-      internalID: -1466390878
+      spriteID: 7130e5993ac9e024b9475cadc452367b
+      internalID: 249093019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_11
+      name: spr_KingDeath_strip_no_bkg_35
       rect:
         serializedVersion: 2
-        x: 229
-        y: 48
-        width: 22
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4df7a2788997b254c86012d01bbe1266
-      internalID: 1934404625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_12
-      rect:
-        serializedVersion: 2
-        x: 387
-        y: 48
-        width: 23
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2ca4c8f705fb6c4bb7221b5fcaa86de
-      internalID: 866438177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_13
-      rect:
-        serializedVersion: 2
-        x: 542
-        y: 48
-        width: 31
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 459525eb165fb8a44b559e03ab88b3ba
-      internalID: 655630571
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_14
-      rect:
-        serializedVersion: 2
-        x: 696
-        y: 48
-        width: 36
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 554e190adcac98d44960b2e926f0cced
-      internalID: -144771590
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_15
-      rect:
-        serializedVersion: 2
-        x: 845
-        y: 48
-        width: 45
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 875e5a790d5d12d4d9f1ed878e41a043
-      internalID: -716899495
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_16
-      rect:
-        serializedVersion: 2
-        x: 1004
-        y: 48
-        width: 45
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4002e0cfbea85b945a66e0c4fbf8abea
-      internalID: 1213989441
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_17
-      rect:
-        serializedVersion: 2
-        x: 1167
-        y: 48
-        width: 45
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7f6b49323c58d374693eff66e6feedcf
-      internalID: -710459192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_18
-      rect:
-        serializedVersion: 2
-        x: 1330
-        y: 48
-        width: 41
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0fd9e1a16d5ecde4ea45f41eb7666144
-      internalID: 916053627
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_19
-      rect:
-        serializedVersion: 2
-        x: 1457
-        y: 48
-        width: 72
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94347493784d854418b1b2484d1d674a
-      internalID: 437999451
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_20
-      rect:
-        serializedVersion: 2
-        x: 1634
-        y: 48
-        width: 58
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9fdac7b6068dc1448bb4d6a537c0c382
-      internalID: -329105514
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_21
-      rect:
-        serializedVersion: 2
-        x: 1792
-        y: 48
-        width: 59
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f1bc51409560e14eb9e150b9a1957e9
-      internalID: 1555504161
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_22
-      rect:
-        serializedVersion: 2
-        x: 1951
-        y: 48
-        width: 59
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe12f965def958e479f01af75caa680b
-      internalID: -1870754904
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_23
-      rect:
-        serializedVersion: 2
-        x: 2109
-        y: 48
-        width: 64
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dee51f459f35157408d6d5256272e619
-      internalID: 1014411094
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_24
-      rect:
-        serializedVersion: 2
-        x: 2272
-        y: 48
-        width: 59
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67c9e91404c42b34b890f12b44dc21f4
-      internalID: 353614733
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_25
-      rect:
-        serializedVersion: 2
-        x: 2431
-        y: 48
-        width: 59
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db9799be86cc0274b91dea32e7e64664
-      internalID: 530141968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_26
-      rect:
-        serializedVersion: 2
-        x: 2590
-        y: 48
-        width: 63
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7278df700d106f4498e79864819aa7b2
-      internalID: -934858890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_27
-      rect:
-        serializedVersion: 2
-        x: 2753
-        y: 48
-        width: 59
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a3d70b45c2d2a1448be653ef090bae3
-      internalID: -581379061
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_28
-      rect:
-        serializedVersion: 2
-        x: 2911
-        y: 48
-        width: 59
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5483ed289c4208549a5ce9c2671b6530
-      internalID: -864363141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_29
-      rect:
-        serializedVersion: 2
-        x: 3075
-        y: 48
-        width: 58
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84cc318983538ef44bc78f8d70aa0caf
-      internalID: 2004741267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_30
-      rect:
-        serializedVersion: 2
-        x: 3251
-        y: 48
-        width: 64
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9aba5c574906d1449bf3786fd8dd4129
-      internalID: 955734185
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_31
-      rect:
-        serializedVersion: 2
-        x: 4058
-        y: 48
-        width: 44
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e03d53038976ec24c84a0a17bc45ce51
-      internalID: -2050217767
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_32
-      rect:
-        serializedVersion: 2
-        x: 4216
-        y: 48
-        width: 46
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b07c8d8c82a85a4f94ab0ec62e4d1b8
-      internalID: 70877969
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_33
-      rect:
-        serializedVersion: 2
-        x: 4375
-        y: 48
-        width: 45
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59760afb653346d4f96a1e910c680fb7
-      internalID: -1782262924
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_34
-      rect:
-        serializedVersion: 2
-        x: 4534
-        y: 48
-        width: 45
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: efe44062c3a73404bb297efc7e912d04
-      internalID: 585632498
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_35
-      rect:
-        serializedVersion: 2
-        x: 4697
-        y: 48
-        width: 45
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7eec7161c60d51499ffa340ffe21339
-      internalID: 639450194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_36
-      rect:
-        serializedVersion: 2
-        x: 4855
-        y: 48
-        width: 46
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 444e06657644afb40bd65d88824e4d52
-      internalID: -1532447821
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_37
-      rect:
-        serializedVersion: 2
-        x: 5014
-        y: 48
-        width: 45
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc15aad4128e95f4596300ad1a22cf3d
-      internalID: 715751864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_38
-      rect:
-        serializedVersion: 2
-        x: 5173
-        y: 48
-        width: 49
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 36749e78dffd99c4bbbdf9884399a1dd
-      internalID: 313443905
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_39
-      rect:
-        serializedVersion: 2
-        x: 5336
-        y: 48
-        width: 45
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df2a7af0dbb095f48b18c025266941ba
-      internalID: -930743970
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_40
-      rect:
-        serializedVersion: 2
-        x: 5494
-        y: 48
-        width: 45
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6067fe299284da74284840ab82265e9c
-      internalID: -260135859
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_41
-      rect:
-        serializedVersion: 2
-        x: 5657
-        y: 48
-        width: 45
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 232c2a6e0602aac48922ea3608dac0e0
-      internalID: 2075383218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_42
-      rect:
-        serializedVersion: 2
-        x: 5825
-        y: 48
-        width: 59
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 772d953186e1123459be4917f9a6133e
-      internalID: 537434101
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_43
-      rect:
-        serializedVersion: 2
-        x: 6151
-        y: 48
-        width: 59
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7bf48d3300d3573478d5d66e7c4f69c2
-      internalID: -265621649
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_44
-      rect:
-        serializedVersion: 2
-        x: 6826
-        y: 89
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8628026f10427e844b664f2bfbd455f1
-      internalID: 410849202
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_45
-      rect:
-        serializedVersion: 2
-        x: 7266
-        y: 48
-        width: 45
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f70e88c9fb1bf0c4ebeca8ae888e14f4
-      internalID: -1380067470
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_46
-      rect:
-        serializedVersion: 2
-        x: 7429
-        y: 48
-        width: 27
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 182dbc6a3ba3dce488618fda5e28efbe
-      internalID: 1029815731
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_47
-      rect:
-        serializedVersion: 2
-        x: 7560
-        y: 48
-        width: 55
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 356b6abaf16bfc44d9a7d52beec36792
-      internalID: -1746599297
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_48
-      rect:
-        serializedVersion: 2
-        x: 7719
-        y: 48
-        width: 54
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3808fc5e4b47abe448d3ebfd96fddcb5
-      internalID: 1728593470
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_49
-      rect:
-        serializedVersion: 2
-        x: 7878
-        y: 48
-        width: 54
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b555a48bf99f46c469269834be372718
-      internalID: 164797173
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_50
-      rect:
-        serializedVersion: 2
-        x: 8050
-        y: 48
-        width: 45
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cdec366a1cb1a70409ed1ffac539b660
-      internalID: 2132263065
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_51
-      rect:
-        serializedVersion: 2
-        x: 8181
-        y: 48
-        width: 72
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1843d3bea13e5e9488d11971fc274dcb
-      internalID: 265684872
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_52
-      rect:
-        serializedVersion: 2
-        x: 8372
-        y: 48
-        width: 40
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 085422f3a6d66be48ba132090fee0393
-      internalID: -1537652894
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_53
-      rect:
-        serializedVersion: 2
-        x: 8530
-        y: 48
-        width: 41
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ba16a76b231fb3479d2ab1f2df017d0
-      internalID: -174448484
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_54
-      rect:
-        serializedVersion: 2
-        x: 8689
-        y: 48
-        width: 40
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28a096704e98f3a43ab58d00908d1692
-      internalID: 1141827464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_55
-      rect:
-        serializedVersion: 2
-        x: 8861
-        y: 48
-        width: 32
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: edc63a151e762e04caa6c5c1b6e051ca
-      internalID: -1298836608
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_56
-      rect:
-        serializedVersion: 2
-        x: 9024
-        y: 48
-        width: 32
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c2cd497c9ed7dc40a3117ba2a92d053
-      internalID: 597739155
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_57
-      rect:
-        serializedVersion: 2
-        x: 9187
-        y: 48
-        width: 27
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28714b36d8994334d8d5fdf370f1e84f
-      internalID: 1762126057
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_58
-      rect:
-        serializedVersion: 2
-        x: 5988
+        x: 4538
         y: 46
-        width: 72
-        height: 43
+        width: 31
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1349,20 +866,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e006b40cddabfe40ac65775d6d94088
-      internalID: 1049213497
+      spriteID: f78fb2f0109de094ea2c8a7af47d6a87
+      internalID: -1252965157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_59
+      name: spr_KingDeath_strip_no_bkg_36
       rect:
         serializedVersion: 2
-        x: 6790
-        y: 48
-        width: 54
-        height: 41
+        x: 1337
+        y: 52
+        width: 4
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1370,20 +887,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b17eca83e90d56044b129eac1f25238a
-      internalID: -510164396
+      spriteID: 3898bfe16af1a9843a866c16022db733
+      internalID: 590657270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_60
+      name: spr_KingDeath_strip_no_bkg_37
       rect:
         serializedVersion: 2
-        x: 6949
-        y: 48
-        width: 54
-        height: 41
+        x: 1346
+        y: 52
+        width: 4
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1391,20 +908,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c96ee7a8783bb974195ecbc3ea001e7b
-      internalID: -1355810872
+      spriteID: 8a3c95b3f1a4bb347ad001d0a677d806
+      internalID: 434723958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_King2Combo_strip_no_bkg_61
+      name: spr_KingDeath_strip_no_bkg_38
       rect:
         serializedVersion: 2
-        x: 7107
-        y: 48
-        width: 55
-        height: 41
+        x: 1980
+        y: 52
+        width: 9
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1412,8 +929,470 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8399d1f89c9cd646bfdc523fce30c74
-      internalID: -867541632
+      spriteID: c422df5cc8897cf478273499ae19e920
+      internalID: 1671662273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_39
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 52
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e9da0703d936a4197806cf1b840944
+      internalID: 1888976256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_40
+      rect:
+        serializedVersion: 2
+        x: 2234
+        y: 52
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9d7ae31dd4efe4d9275ae60c4e9c27
+      internalID: 1356104243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_41
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 52
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef98be54b99ad2748baaaad6def79a1e
+      internalID: -1355900032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_42
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 52
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fce196a8adcfb0459c732fe2cf4833a
+      internalID: 246598094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_43
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 52
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd92b1c72d518364495aa3a25b8f7623
+      internalID: 1026735984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_44
+      rect:
+        serializedVersion: 2
+        x: 2746
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfa7974e84c8eb439e4cec0e6b34abe
+      internalID: 1704215911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_45
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab15df8393bdf474a9268814e16e3bfa
+      internalID: -389878705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_46
+      rect:
+        serializedVersion: 2
+        x: 3002
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159af383afe0ac34eab0b3f08a22fd9e
+      internalID: 1968144953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_47
+      rect:
+        serializedVersion: 2
+        x: 3130
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fba2f65107e8d4e8c15b87141e1608
+      internalID: 1383040227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_48
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5485fbfb0098c714f8a89b73ad7fef2e
+      internalID: 600420288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_49
+      rect:
+        serializedVersion: 2
+        x: 3386
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00893a8e9fec5ec4dbf79845cd3ee960
+      internalID: -869221020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_50
+      rect:
+        serializedVersion: 2
+        x: 3514
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cabe169009cef740b4282dd9ca5feec
+      internalID: 1407687411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_51
+      rect:
+        serializedVersion: 2
+        x: 3642
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a717402eda020642a1f274923b31d66
+      internalID: 261723221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_52
+      rect:
+        serializedVersion: 2
+        x: 3770
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0224cd9c687e3754ebd89abc4565e120
+      internalID: 267038020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_53
+      rect:
+        serializedVersion: 2
+        x: 3898
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5446f7ebfe3b3894b86a6e768b77f9a9
+      internalID: -709257791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_54
+      rect:
+        serializedVersion: 2
+        x: 4026
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde33f1d368866642a3c567756337942
+      internalID: -186405304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_55
+      rect:
+        serializedVersion: 2
+        x: 4154
+        y: 52
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f439c0e047f94784bb7704da131c0521
+      internalID: 1487752129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_56
+      rect:
+        serializedVersion: 2
+        x: 4173
+        y: 49
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551368f0be83c3e40ac0c046ce296cfa
+      internalID: -960099642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_57
+      rect:
+        serializedVersion: 2
+        x: 4282
+        y: 52
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563f488a082d43946bcb046a72dc5f94
+      internalID: 1065374072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_58
+      rect:
+        serializedVersion: 2
+        x: 4300
+        y: 48
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60caff248ebe8904397948a41ade9d69
+      internalID: 1500358136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_59
+      rect:
+        serializedVersion: 2
+        x: 4426
+        y: 44
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bd5b65be3ea10429e4d5dc187f1636
+      internalID: -345324631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_KingDeath_strip_no_bkg_60
+      rect:
+        serializedVersion: 2
+        x: 4666
+        y: 52
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94dbb976d39553844b1bdcb5514307c9
+      internalID: 1193126713
       vertices: []
       indices: 
       edges: []
@@ -1429,68 +1408,67 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spr_King2Combo_strip_no_bkg_0: 1654318181
-      spr_King2Combo_strip_no_bkg_1: -1912047596
-      spr_King2Combo_strip_no_bkg_10: -1466390878
-      spr_King2Combo_strip_no_bkg_11: 1934404625
-      spr_King2Combo_strip_no_bkg_12: 866438177
-      spr_King2Combo_strip_no_bkg_13: 655630571
-      spr_King2Combo_strip_no_bkg_14: -144771590
-      spr_King2Combo_strip_no_bkg_15: -716899495
-      spr_King2Combo_strip_no_bkg_16: 1213989441
-      spr_King2Combo_strip_no_bkg_17: -710459192
-      spr_King2Combo_strip_no_bkg_18: 916053627
-      spr_King2Combo_strip_no_bkg_19: 437999451
-      spr_King2Combo_strip_no_bkg_2: -100816659
-      spr_King2Combo_strip_no_bkg_20: -329105514
-      spr_King2Combo_strip_no_bkg_21: 1555504161
-      spr_King2Combo_strip_no_bkg_22: -1870754904
-      spr_King2Combo_strip_no_bkg_23: 1014411094
-      spr_King2Combo_strip_no_bkg_24: 353614733
-      spr_King2Combo_strip_no_bkg_25: 530141968
-      spr_King2Combo_strip_no_bkg_26: -934858890
-      spr_King2Combo_strip_no_bkg_27: -581379061
-      spr_King2Combo_strip_no_bkg_28: -864363141
-      spr_King2Combo_strip_no_bkg_29: 2004741267
-      spr_King2Combo_strip_no_bkg_3: 1019967052
-      spr_King2Combo_strip_no_bkg_30: 955734185
-      spr_King2Combo_strip_no_bkg_31: -2050217767
-      spr_King2Combo_strip_no_bkg_32: 70877969
-      spr_King2Combo_strip_no_bkg_33: -1782262924
-      spr_King2Combo_strip_no_bkg_34: 585632498
-      spr_King2Combo_strip_no_bkg_35: 639450194
-      spr_King2Combo_strip_no_bkg_36: -1532447821
-      spr_King2Combo_strip_no_bkg_37: 715751864
-      spr_King2Combo_strip_no_bkg_38: 313443905
-      spr_King2Combo_strip_no_bkg_39: -930743970
-      spr_King2Combo_strip_no_bkg_4: -352777776
-      spr_King2Combo_strip_no_bkg_40: -260135859
-      spr_King2Combo_strip_no_bkg_41: 2075383218
-      spr_King2Combo_strip_no_bkg_42: 537434101
-      spr_King2Combo_strip_no_bkg_43: -265621649
-      spr_King2Combo_strip_no_bkg_44: 410849202
-      spr_King2Combo_strip_no_bkg_45: -1380067470
-      spr_King2Combo_strip_no_bkg_46: 1029815731
-      spr_King2Combo_strip_no_bkg_47: -1746599297
-      spr_King2Combo_strip_no_bkg_48: 1728593470
-      spr_King2Combo_strip_no_bkg_49: 164797173
-      spr_King2Combo_strip_no_bkg_5: -1945426465
-      spr_King2Combo_strip_no_bkg_50: 2132263065
-      spr_King2Combo_strip_no_bkg_51: 265684872
-      spr_King2Combo_strip_no_bkg_52: -1537652894
-      spr_King2Combo_strip_no_bkg_53: -174448484
-      spr_King2Combo_strip_no_bkg_54: 1141827464
-      spr_King2Combo_strip_no_bkg_55: -1298836608
-      spr_King2Combo_strip_no_bkg_56: 597739155
-      spr_King2Combo_strip_no_bkg_57: 1762126057
-      spr_King2Combo_strip_no_bkg_58: 1049213497
-      spr_King2Combo_strip_no_bkg_59: -510164396
-      spr_King2Combo_strip_no_bkg_6: -1055966997
-      spr_King2Combo_strip_no_bkg_60: -1355810872
-      spr_King2Combo_strip_no_bkg_61: -867541632
-      spr_King2Combo_strip_no_bkg_7: 2139391054
-      spr_King2Combo_strip_no_bkg_8: 1832465998
-      spr_King2Combo_strip_no_bkg_9: 2046575416
+      spr_KingDeath_strip_no_bkg_0: -542348168
+      spr_KingDeath_strip_no_bkg_1: -1388980862
+      spr_KingDeath_strip_no_bkg_10: -415911581
+      spr_KingDeath_strip_no_bkg_11: 473151307
+      spr_KingDeath_strip_no_bkg_12: 1397766041
+      spr_KingDeath_strip_no_bkg_13: -2074960468
+      spr_KingDeath_strip_no_bkg_14: -2007639504
+      spr_KingDeath_strip_no_bkg_15: 512571871
+      spr_KingDeath_strip_no_bkg_16: 808255184
+      spr_KingDeath_strip_no_bkg_17: -195979870
+      spr_KingDeath_strip_no_bkg_18: -2078325346
+      spr_KingDeath_strip_no_bkg_19: 459819129
+      spr_KingDeath_strip_no_bkg_2: -378199420
+      spr_KingDeath_strip_no_bkg_20: 206442587
+      spr_KingDeath_strip_no_bkg_21: 1466094150
+      spr_KingDeath_strip_no_bkg_22: -290715209
+      spr_KingDeath_strip_no_bkg_23: -1107900468
+      spr_KingDeath_strip_no_bkg_24: 774655304
+      spr_KingDeath_strip_no_bkg_25: -99537365
+      spr_KingDeath_strip_no_bkg_26: -1320546714
+      spr_KingDeath_strip_no_bkg_27: 1553823935
+      spr_KingDeath_strip_no_bkg_28: 1870445756
+      spr_KingDeath_strip_no_bkg_29: 1384530015
+      spr_KingDeath_strip_no_bkg_3: 164600514
+      spr_KingDeath_strip_no_bkg_30: -2041597775
+      spr_KingDeath_strip_no_bkg_31: 399820756
+      spr_KingDeath_strip_no_bkg_32: -1490826948
+      spr_KingDeath_strip_no_bkg_33: 2116409956
+      spr_KingDeath_strip_no_bkg_34: 249093019
+      spr_KingDeath_strip_no_bkg_35: -1252965157
+      spr_KingDeath_strip_no_bkg_36: 590657270
+      spr_KingDeath_strip_no_bkg_37: 434723958
+      spr_KingDeath_strip_no_bkg_38: 1671662273
+      spr_KingDeath_strip_no_bkg_39: 1888976256
+      spr_KingDeath_strip_no_bkg_4: -2104011138
+      spr_KingDeath_strip_no_bkg_40: 1356104243
+      spr_KingDeath_strip_no_bkg_41: -1355900032
+      spr_KingDeath_strip_no_bkg_42: 246598094
+      spr_KingDeath_strip_no_bkg_43: 1026735984
+      spr_KingDeath_strip_no_bkg_44: 1704215911
+      spr_KingDeath_strip_no_bkg_45: -389878705
+      spr_KingDeath_strip_no_bkg_46: 1968144953
+      spr_KingDeath_strip_no_bkg_47: 1383040227
+      spr_KingDeath_strip_no_bkg_48: 600420288
+      spr_KingDeath_strip_no_bkg_49: -869221020
+      spr_KingDeath_strip_no_bkg_5: 1632562451
+      spr_KingDeath_strip_no_bkg_50: 1407687411
+      spr_KingDeath_strip_no_bkg_51: 261723221
+      spr_KingDeath_strip_no_bkg_52: 267038020
+      spr_KingDeath_strip_no_bkg_53: -709257791
+      spr_KingDeath_strip_no_bkg_54: -186405304
+      spr_KingDeath_strip_no_bkg_55: 1487752129
+      spr_KingDeath_strip_no_bkg_56: -960099642
+      spr_KingDeath_strip_no_bkg_57: 1065374072
+      spr_KingDeath_strip_no_bkg_58: 1500358136
+      spr_KingDeath_strip_no_bkg_59: -345324631
+      spr_KingDeath_strip_no_bkg_6: -723540009
+      spr_KingDeath_strip_no_bkg_60: 1193126713
+      spr_KingDeath_strip_no_bkg_7: 427288987
+      spr_KingDeath_strip_no_bkg_8: -1723156183
+      spr_KingDeath_strip_no_bkg_9: 1503577935
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
