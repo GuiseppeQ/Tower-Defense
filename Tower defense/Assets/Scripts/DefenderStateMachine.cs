@@ -36,5 +36,7 @@ public class DefenderStateMachine : MonoBehaviour
                 animator.SetTrigger("Atack");
             }
         }
+        defenderMovement.enabled = true;
+        
     }
 }

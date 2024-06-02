@@ -17,8 +17,15 @@ public class EnemyHealth : MonoBehaviour
     {
         if (health < 0){
 
-           Destroy(gameObject);
-        
+           StartCoroutine(WaitForDead());
         }
     }
+
+    IEnumerator WaitForDead()
+    {
+        yield return new WaitForSeconds(1.5f); 
+        Destroy(gameObject);
+    }
+
+
 }

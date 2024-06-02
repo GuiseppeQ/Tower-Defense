@@ -1,7 +1,22 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Tower defense/Assets/Animaciones/Animacion/Borne.meta
 guid: 80529289e42b672438fde8221691b167
 folderAsset: yes
 DefaultImporter:
+========
+guid: 377edad472afb0649841ab4264cf8b71
+PrefabImporter:
+>>>>>>>> Stashed changes:Tower defense/Assets/Animaciones/Animacion/Borne/Borne Caminar.prefab.meta
+=======
+<<<<<<<< HEAD:Tower defense/Assets/Prefab.meta
+guid: de681334fcdc83d4182265a81ef4f2d9
+========
+guid: 80529289e42b672438fde8221691b167
+>>>>>>>> 68b1f8245f04ab6b83198315c97b5a0bfa3e665e:Tower defense/Assets/Animaciones/Animacion/Borne.meta
+folderAsset: yes
+DefaultImporter:
+>>>>>>> Stashed changes
   externalObjects: {}
   userData: 
   assetBundleName: 

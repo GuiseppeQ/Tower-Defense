@@ -1,14 +1,4 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
-<<<<<<<< Updated upstream:Tower defense/Assets/Animaciones/Animacion/Ronin.meta
-guid: 2009605c86558a84193eb7112c9ec7e5
-folderAsset: yes
-DefaultImporter:
-========
-guid: 5862f44c8c2362347be99b656800daac
-PrefabImporter:
->>>>>>>> Stashed changes:Tower defense/Assets/Animaciones/Animacion/Borne/Borne Salvaje.prefab.meta
-=======
 <<<<<<<< HEAD:Tower defense/Assets/Arte/Images.meta
 guid: 783b53ab22b327141be673ace38106da
 ========
@@ -16,7 +6,6 @@ guid: 2009605c86558a84193eb7112c9ec7e5
 >>>>>>>> 68b1f8245f04ab6b83198315c97b5a0bfa3e665e:Tower defense/Assets/Animaciones/Animacion/Ronin.meta
 folderAsset: yes
 DefaultImporter:
->>>>>>> Stashed changes
   externalObjects: {}
   userData: 
   assetBundleName: 

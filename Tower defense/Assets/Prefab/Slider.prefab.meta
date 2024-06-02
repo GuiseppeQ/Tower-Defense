@@ -1,13 +1,9 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
-guid: a7581ee71a94de547a23e469250af97a
-=======
 <<<<<<<< HEAD:Tower defense/Assets/Prefab/Slider.prefab.meta
 guid: 6fe35bf2274b27b46a6016773b59b0d3
 ========
 guid: a7581ee71a94de547a23e469250af97a
 >>>>>>>> 68b1f8245f04ab6b83198315c97b5a0bfa3e665e:Tower defense/Assets/Animaciones/Animacion/Ronin/Caminar.prefab.meta
->>>>>>> Stashed changes
 PrefabImporter:
   externalObjects: {}
   userData: 
