@@ -5,6 +5,7 @@ using UnityEngine;
 public class Boton_tropa : MonoBehaviour
 {
     public int costo;
+    public GameObject tropaPrefab;
 
     private void OnMouseDown()
     {
@@ -12,7 +13,7 @@ public class Boton_tropa : MonoBehaviour
 
         if (adminOro != null)
         {
-            adminOro.ComprarTropa(costo);
+            adminOro.ComprarTropa(costo, tropaPrefab);
         }
     }
 }
