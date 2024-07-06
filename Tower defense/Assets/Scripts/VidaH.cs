@@ -2,16 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHealth : MonoBehaviour
+public class VidaH : MonoBehaviour
 {
+
     public float health;
     public float maxHealth = 30;
-    public DefenderMovement defenderMovement;
+    public EnemyMovement enemyMovement;
     // Start is called before the first frame update
     void Start()
     {
         health = maxHealth;
-        defenderMovement = FindObjectOfType<DefenderMovement>();
+        enemyMovement = FindObjectOfType<EnemyMovement>();
     }
 
     // Update is called once per frame
@@ -19,16 +20,14 @@ public class EnemyHealth : MonoBehaviour
     {
         if (health < 0)
         {
-            defenderMovement.speed = defenderMovement.speedOriginal;
+            enemyMovement.speed = enemyMovement.speedOriginal;
             StartCoroutine(WaitForDead());
         }
     }
 
     IEnumerator WaitForDead()
     {
-        yield return new WaitForSeconds(0.5f); 
+        yield return new WaitForSeconds(0.5f);
         Destroy(gameObject);
     }
-
-
 }

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -8371492391560876437}
   - component: {fileID: 5157829821399176085}
   - component: {fileID: 7032153573872493442}
+  - component: {fileID: 5202887115321286859}
   - component: {fileID: 1608466245079432814}
   - component: {fileID: -7557503235947461369}
   m_Layer: 0
@@ -31,8 +32,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4396644086684504190}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.46875, y: -0.75, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -4.6, y: -1.6691, z: 0}
+  m_LocalScale: {x: 0.9065048, y: 0.9065048, z: 0.9065048}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -123,7 +124,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bbc299fc67866542a1945ff9406934e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0
+  damage: 5
+  attackCooldown: 1
   animator: {fileID: 4396644086684504185}
 --- !u!114 &5157829821399176085
 MonoBehaviour:
@@ -139,6 +141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 1608466245079432814}
   speed: 0
+  speedOriginal: 2
 --- !u!114 &7032153573872493442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,12 +155,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   State: 1
-  range: 0
+  range: 1.7
   layerMask:
     serializedVersion: 2
     m_Bits: 64
-  defenderMovement: {fileID: 0}
+  defenderMovement: {fileID: 5157829821399176085}
   animator: {fileID: 4396644086684504185}
+  vida: {fileID: 5202887115321286859}
+--- !u!114 &5202887115321286859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4396644086684504190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55c4abf034bfed2489296a3085e3caea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 30
 --- !u!50 &1608466245079432814
 Rigidbody2D:
   serializedVersion: 4
@@ -178,7 +196,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &-7557503235947461369
 BoxCollider2D:
   m_ObjectHideFlags: 0

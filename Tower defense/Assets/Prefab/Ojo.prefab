@@ -31,8 +31,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1800689628726543137}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.673981, y: -0.5956113, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -4.6, y: -1.6691, z: 0}
+  m_LocalScale: {x: 0.621225, y: 0.621225, z: 0.621225}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -124,6 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 0
+  attackCooldown: 1
   animator: {fileID: 1800689628726543136}
 --- !u!114 &8406470717835150927
 MonoBehaviour:
@@ -139,6 +140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 4803613627878703050}
   speed: 0
+  speedOriginal: 0
 --- !u!114 &-3118971247946191194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,6 +160,7 @@ MonoBehaviour:
     m_Bits: 64
   defenderMovement: {fileID: 8406470717835150927}
   animator: {fileID: 1800689628726543136}
+  vida: {fileID: 0}
 --- !u!50 &4803613627878703050
 Rigidbody2D:
   serializedVersion: 4
@@ -178,7 +181,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &2745698991577818225
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -6,11 +6,25 @@ public class DefenderMovement : MonoBehaviour
 {
     public Rigidbody2D rb;
     public float speed;
-    
-    // Update is called once per frame
-    void FixedUpdate()
+    public float speedOriginal;
+
+    private void Start()
+    {
+        speed = speedOriginal;
+    }
+
+    private void FixedUpdate()
     {
         rb.velocity = Vector2.right * speed;
+    }
 
+    public void SetSpeed(float newSpeed)
+    {
+        speed = newSpeed;
+    }
+
+    public void ResetSpeed()
+    {
+        speed = speedOriginal;
     }
 }

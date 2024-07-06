@@ -6,9 +6,25 @@ public class EnemyMovement : MonoBehaviour
 {
     public Rigidbody2D rb;
     public float speed;
+    public float speedOriginal;
+
+    private void Start()
+    {
+        speed = speedOriginal;
+    }
 
     private void FixedUpdate()
     {
         rb.velocity = Vector2.left * speed;
+    }
+
+    public void SetSpeed(float newSpeed)
+    {
+        speed = newSpeed;
+    }
+
+    public void ResetSpeed()
+    {
+        speed = speedOriginal;
     }
 }

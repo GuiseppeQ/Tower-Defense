@@ -2,23 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum DenfenderState
+public class EnemyStateMachine : MonoBehaviour
 {
-    Idle,
-    Walking,
-    Attack,
-    Died,
-}
-public class DefenderStateMachine : MonoBehaviour
-{
+    public enum DenfenderState
+    {
+        Idle,
+        Walking,
+        Attack,
+        Died,
+    }
     public DenfenderState State;
     public float range;
     public LayerMask layerMask;
-    public DefenderMovement defenderMovement;
+    public EnemyMovement enemyMovement;
     public Animator animator;
-    public VidaH vida;
-    
-    
+    public EnemyHealth vida;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,27 +31,27 @@ public class DefenderStateMachine : MonoBehaviour
     {
         if (State == DenfenderState.Walking)
         {
-            RaycastHit2D hit2D = Physics2D.Raycast(transform.position, Vector2.right, range,layerMask);
+            RaycastHit2D hit2D = Physics2D.Raycast(transform.position, Vector2.right, range, layerMask);
             if (hit2D.collider != null)
             {
-                
+
                 State = DenfenderState.Attack;
-                defenderMovement.enabled = false;
-                animator.SetTrigger("Atack");                       
+                enemyMovement.enabled = false;
+                animator.SetTrigger("Atack");
             }
-            
+           
         }
-        //if(State == DenfenderState.Attack)
+        //if (State == DenfenderState.Attack)
         //{
-         
+            
         //    State = DenfenderState.Walking;
         //}
-        
-        if(vida.health< 0)
+
+        if (vida.health < 0)
         {
-            State= DenfenderState.Died;
+            State = DenfenderState.Died;
             animator.SetTrigger("Dead");
         }
-        defenderMovement.enabled = true;
+        enemyMovement.enabled = true;
     }
 }

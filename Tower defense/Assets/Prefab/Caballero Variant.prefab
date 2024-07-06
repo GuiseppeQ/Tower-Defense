@@ -143,6 +143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 188368271}
   speed: 1.5
+  speedOriginal: 0
 --- !u!114 &188368274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,7 +176,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 7
+  attackCooldown: 1
   animator: {fileID: 7769735449677129563}
+  defenderMovement: {fileID: 0}
+  stateMachine: {fileID: 0}
 --- !u!95 &7769735449677129563 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 1435289838652132861, guid: 113f6708fe6862243a2c3a287a39647d, type: 3}
