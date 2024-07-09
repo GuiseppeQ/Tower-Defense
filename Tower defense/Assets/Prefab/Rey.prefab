@@ -12,6 +12,10 @@ PrefabInstance:
       value: Rey
       objectReference: {fileID: 0}
     - target: {fileID: 3893902771499658518, guid: 196867184eaf0f644ab4db34154d5472, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3893902771499658518, guid: 196867184eaf0f644ab4db34154d5472, type: 3}
       propertyPath: m_TagString
       value: Rey
       objectReference: {fileID: 0}
@@ -156,8 +160,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 99
+  damageTower: 0
   attackCooldown: 1
   animator: {fileID: 1664841786981526517}
+  defenderMovement: {fileID: 1744150413}
+  stateMachine: {fileID: 1744150412}
 --- !u!114 &1744150412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,6 +185,7 @@ MonoBehaviour:
   defenderMovement: {fileID: 1744150413}
   animator: {fileID: 1664841786981526517}
   vida: {fileID: -2924489475896310640}
+  rangeOriginal: 0
 --- !u!114 &1744150413
 MonoBehaviour:
   m_ObjectHideFlags: 0

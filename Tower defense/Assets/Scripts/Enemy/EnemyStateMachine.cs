@@ -18,14 +18,13 @@ public class EnemyStateMachine : MonoBehaviour
     public EnemyMovement enemyMovement;
     public Animator animator;
     public EnemyHealth enemyHealth;  // Asegúrate de tener una referencia a EnemyHealth
-    public EnemyAtack enemyAttack;  // Asegúrate de tener una referencia a EnemyAttack
 
-    private float nextAttackTime;
-    public float attackCooldown = 1f; // Tiempo en segundos entre ataques
+    public float rangeOriginal;
+
 
     void Start()
     {
-        nextAttackTime = Time.time;
+        rangeOriginal = range;
         State = DefenderState.Walking;
         animator = GetComponent<Animator>();
 
@@ -38,7 +37,7 @@ public class EnemyStateMachine : MonoBehaviour
         enemyHealth = GetComponent<EnemyHealth>();
 
         // Obtener la referencia a EnemyAttack específica de este enemigo
-        enemyAttack = GetComponent<EnemyAtack>();
+       
     }
 
     void Update()
@@ -49,20 +48,17 @@ public class EnemyStateMachine : MonoBehaviour
         {
             if (hit2D.collider != null)
             {
+                animator.SetTrigger("Atack");
+                range = 0;
                 State = DefenderState.Attack;
                 enemyMovement.enabled = false;
-                animator.SetTrigger("Atack");
+                
             }
         }
 
         if (State == DefenderState.Attack)
         {
-            if (Time.time >= nextAttackTime)
-            {
-                // Llamar al método DealDamageToDefender en EnemyAttack específico de este enemigo
-                enemyAttack.DealDamageToDefender();
-                nextAttackTime = Time.time + attackCooldown; // Actualizar el tiempo para el próximo ataque
-            }
+            
             State = DefenderState.Walking;
         }
 
@@ -74,7 +70,8 @@ public class EnemyStateMachine : MonoBehaviour
 
         if (hit2D.collider == null)
         {
-            enemyMovement.speed = enemyMovement.speedOriginal;
+           
+           
         }
 
         enemyMovement.enabled = true;

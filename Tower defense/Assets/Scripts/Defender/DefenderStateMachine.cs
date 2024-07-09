@@ -18,14 +18,13 @@ public class DefenderStateMachine : MonoBehaviour
     public DefenderMovement defenderMovement;
     public Animator animator;
     public VidaH vida;
-    public DefenderAttack attack;
+   
 
-    private float nextAttackTime;
-    public float attackCooldown = 1f; // Tiempo en segundos entre ataques
+    public float rangeOriginal;
 
     void Start()
     {
-        nextAttackTime = Time.time;
+        rangeOriginal = range;
         State = DefenderState.Walking;
         animator = GetComponent<Animator>();
 
@@ -37,10 +36,7 @@ public class DefenderStateMachine : MonoBehaviour
         {
             vida = GetComponent<VidaH>();
         }
-        if (attack == null)
-        {
-            attack = GetComponent<DefenderAttack>();
-        }
+      
     }
 
 
@@ -51,20 +47,15 @@ public class DefenderStateMachine : MonoBehaviour
         {
             if (hit2D.collider != null)
             {
-                
+                animator.SetTrigger("Atack");
+                range = 0;
                 State = DefenderState.Attack;
-                defenderMovement.enabled = false;
-                animator.SetTrigger("Atack");              
-              
+                defenderMovement.enabled = false;             
             }
         }
         if (State == DefenderState.Attack)
         {
-            if (Time.time >= nextAttackTime)
-            {
-                attack.DealDamageToEnemy(); 
-                nextAttackTime = Time.time + attackCooldown; // Actualizar el tiempo para el próximo ataque
-            }
+            
             State = DefenderState.Walking;
         }
         if (vida.health < 0)
@@ -74,8 +65,7 @@ public class DefenderStateMachine : MonoBehaviour
         }
         if (hit2D.collider == null)
         {
-
-            defenderMovement.speed = defenderMovement.speedOriginal;
+            
         }
         defenderMovement.enabled = true;
     }

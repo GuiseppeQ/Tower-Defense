@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: -7234550935984676424}
   - component: {fileID: -4748779144319721172}
   - component: {fileID: 3996355204455573413}
+  - component: {fileID: -1469429354288006421}
   m_Layer: 6
   m_Name: Hongo
   m_TagString: Untagged
@@ -79,7 +80,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -520342776, guid: d275c5119627c8a4b8a8c83db501f5e0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -173,9 +174,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 4
   damageTower: 2
+  attackCooldown: 1
   animator: {fileID: 1979875582078875740}
   enemyMovement: {fileID: -4748779144319721172}
-  vidaH: {fileID: 0}
+  enemyStateMachine: {fileID: 3996355204455573413}
 --- !u!114 &-7234550935984676424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -202,7 +204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1d7931b96da6d24abb9000a94c28845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 0}
+  rb: {fileID: 75322563584644686}
   speed: 0
   speedOriginal: 0.8
 --- !u!114 &3996355204455573413
@@ -224,6 +226,23 @@ MonoBehaviour:
     m_Bits: 128
   enemyMovement: {fileID: -4748779144319721172}
   animator: {fileID: 1979875582078875740}
-  enemyhealth: {fileID: -7234550935984676424}
-  enemyAtack: {fileID: 3234601671870167897}
-  attackCooldown: 1
+  enemyHealth: {fileID: -7234550935984676424}
+  rangeOriginal: 0
+--- !u!114 &-1469429354288006421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4472047162485049755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f6964743806ca49935cd09bc9e3ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  extraGravity: 10
+  rayLength: 1.44
+  enemyMovement: {fileID: 0}

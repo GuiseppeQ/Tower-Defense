@@ -12,6 +12,10 @@ PrefabInstance:
       value: Caballero Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1435289838652132850, guid: 113f6708fe6862243a2c3a287a39647d, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435289838652132850, guid: 113f6708fe6862243a2c3a287a39647d, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -165,7 +169,7 @@ MonoBehaviour:
   animator: {fileID: 7769735449677129563}
   vida: {fileID: 2851458752393630124}
   attack: {fileID: 1363555035}
-  attackCooldown: 1
+  rangeOriginal: 1.5
 --- !u!114 &1363555035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,9 +183,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 7
+  damageTower: 0
+  attackCooldown: 1
   animator: {fileID: 7769735449677129563}
   defenderMovement: {fileID: 188368273}
-  enemyHealth: {fileID: 0}
+  stateMachine: {fileID: 188368274}
 --- !u!114 &2851458752393630124
 MonoBehaviour:
   m_ObjectHideFlags: 0

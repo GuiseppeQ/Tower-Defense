@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3803627309384752895}
   - component: {fileID: 3803627309384752892}
   - component: {fileID: 3803627309384752891}
+  - component: {fileID: 6837620694596403787}
   m_Layer: 0
   m_Name: SpawnHero
   m_TagString: Untagged
@@ -102,7 +103,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   oroInicial: 0
   tasaIncrementoOro: 1
-  tropaPrefab: {fileID: 1664841786981526282, guid: efb51f975a8938d4dac3488d706ca5ec, type: 3}
   puntoDespliegueTropa: {fileID: 0}
 --- !u!61 &3803627309384752892
 BoxCollider2D:
@@ -142,7 +142,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca9db6790d727294e8dfd28f7fdf31df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  costo: 4
+  tropaPrefab: {fileID: 0}
+--- !u!114 &6837620694596403787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3803627309384752880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52256e398e7ba7441ac80ca3fba1d51f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textoOro: {fileID: 0}
 --- !u!1 &5882880990300576662
 GameObject:
   m_ObjectHideFlags: 0

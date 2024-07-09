@@ -17,7 +17,8 @@ GameObject:
   - component: {fileID: 7004674779712424451}
   - component: {fileID: -7749611393711918591}
   - component: {fileID: 3284053382134716646}
-  m_Layer: 0
+  - component: {fileID: 5170734944485192479}
+  m_Layer: 6
   m_Name: Borne
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79,7 +80,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 2054442987, guid: f6d3a7eb24bdded4a825325c456a6146, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -171,11 +172,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 105565e7fb1b0a544b13cdbc33d86612, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 15
+  damage: 25
   damageTower: 2
+  attackCooldown: 1
   animator: {fileID: 7662710855655535652}
-  enemyMovement: {fileID: 0}
-  vidaH: {fileID: 0}
+  enemyMovement: {fileID: -7749611393711918591}
+  enemyStateMachine: {fileID: 3284053382134716646}
 --- !u!114 &7004674779712424451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225,5 +227,22 @@ MonoBehaviour:
   enemyMovement: {fileID: -7749611393711918591}
   animator: {fileID: 7662710855655535652}
   enemyHealth: {fileID: 7004674779712424451}
-  enemyAttack: {fileID: 6077721442452654014}
-  attackCooldown: 1
+  rangeOriginal: 0
+--- !u!114 &5170734944485192479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7662710855655535653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f6964743806ca49935cd09bc9e3ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  extraGravity: 10
+  rayLength: 1.37
+  enemyMovement: {fileID: -7749611393711918591}

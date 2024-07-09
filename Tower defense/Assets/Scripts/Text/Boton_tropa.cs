@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Boton_tropa : MonoBehaviour
 {
-    public int costo;
+    public int  costo;
     public GameObject tropaPrefab;
 
     private void OnMouseDown()

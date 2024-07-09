@@ -13,7 +13,12 @@ GameObject:
   - component: {fileID: 174607739006635194}
   - component: {fileID: 2186075324061406239}
   - component: {fileID: 5342213311362170791}
-  m_Layer: 0
+  - component: {fileID: -1857128015876451132}
+  - component: {fileID: 8247504213729598231}
+  - component: {fileID: -7500538758499138673}
+  - component: {fileID: 7021790270352752627}
+  - component: {fileID: -8246887848120765357}
+  m_Layer: 6
   m_Name: Esqueleto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,10 +80,10 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 648439445, guid: a71ae0a2d8c9c2c4b8ffe6263bf07d68, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 2.8125, y: 3.1875}
@@ -155,3 +160,89 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.9895489, y: 3.1430163}
   m_EdgeRadius: 0
+--- !u!114 &-1857128015876451132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3850210076381052892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 105565e7fb1b0a544b13cdbc33d86612, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 7
+  damageTower: 1
+  attackCooldown: 1
+  animator: {fileID: 174607739006635194}
+  enemyMovement: {fileID: -7500538758499138673}
+  enemyStateMachine: {fileID: 7021790270352752627}
+--- !u!114 &8247504213729598231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3850210076381052892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f640a7050ebef34daafa4e3e3082d1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 20
+--- !u!114 &-7500538758499138673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3850210076381052892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1d7931b96da6d24abb9000a94c28845, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 2186075324061406239}
+  speed: 0
+  speedOriginal: 1.8
+--- !u!114 &7021790270352752627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3850210076381052892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881db76741013644999c7b7e51f63620, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  State: 1
+  range: 1.7
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  enemyMovement: {fileID: -7500538758499138673}
+  animator: {fileID: 174607739006635194}
+  enemyHealth: {fileID: 8247504213729598231}
+  rangeOriginal: 0
+--- !u!114 &-8246887848120765357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3850210076381052892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f6964743806ca49935cd09bc9e3ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  extraGravity: 10
+  rayLength: 1.1
+  enemyMovement: {fileID: 0}

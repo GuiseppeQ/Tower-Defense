@@ -13,6 +13,11 @@ GameObject:
   - component: {fileID: 1800689628726543136}
   - component: {fileID: 4803613627878703050}
   - component: {fileID: 2745698991577818225}
+  - component: {fileID: -5349189677231882373}
+  - component: {fileID: 1805388319194045181}
+  - component: {fileID: -5307676328843039009}
+  - component: {fileID: 656774757754942692}
+  - component: {fileID: -70349060744344972}
   m_Layer: 0
   m_Name: Ojo
   m_TagString: Untagged
@@ -75,10 +80,10 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1003184721, guid: ea5aac92c4b6a9b4aae2220d5a8b7356, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 2.5625, y: 1.9375}
@@ -155,3 +160,89 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.5625, y: 1.9375}
   m_EdgeRadius: 0
+--- !u!114 &-5349189677231882373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800689628726543137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 105565e7fb1b0a544b13cdbc33d86612, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
+  damageTower: 1
+  attackCooldown: 1
+  animator: {fileID: 1800689628726543136}
+  enemyMovement: {fileID: -5307676328843039009}
+  enemyStateMachine: {fileID: 656774757754942692}
+--- !u!114 &1805388319194045181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800689628726543137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f640a7050ebef34daafa4e3e3082d1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 10
+--- !u!114 &-5307676328843039009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800689628726543137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1d7931b96da6d24abb9000a94c28845, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 4803613627878703050}
+  speed: 0
+  speedOriginal: 6
+--- !u!114 &656774757754942692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800689628726543137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881db76741013644999c7b7e51f63620, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  State: 1
+  range: 1
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  enemyMovement: {fileID: -5307676328843039009}
+  animator: {fileID: 1800689628726543136}
+  enemyHealth: {fileID: 1805388319194045181}
+  rangeOriginal: 0
+--- !u!114 &-70349060744344972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800689628726543137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f6964743806ca49935cd09bc9e3ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  extraGravity: 45
+  rayLength: 0.64
+  enemyMovement: {fileID: 0}

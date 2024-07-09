@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -1679885323472413009}
   - component: {fileID: -2185703645914811094}
   - component: {fileID: 2086354123969191338}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Borne 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 2054442987, guid: f6d3a7eb24bdded4a825325c456a6146, type: 3}
   m_Color: {r: 0.113851406, g: 0, b: 0.972549, a: 1}
   m_FlipX: 0
@@ -124,10 +124,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bbc299fc67866542a1945ff9406934e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 15
+  damage: 25
   attackCooldown: 1
   animator: {fileID: 7662710855655535652}
   defenderMovement: {fileID: -7036497719317297567}
+  defenderStateMachine: {fileID: 0}
 --- !u!114 &-7036497719317297567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,6 +164,7 @@ MonoBehaviour:
   defenderMovement: {fileID: -7036497719317297567}
   animator: {fileID: 7662710855655535652}
   vida: {fileID: -1679885323472413009}
+  rangeOriginal: 1.5
 --- !u!114 &-1679885323472413009
 MonoBehaviour:
   m_ObjectHideFlags: 0

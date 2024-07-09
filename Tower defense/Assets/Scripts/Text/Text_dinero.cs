@@ -7,6 +7,7 @@ public class Text_dinero : MonoBehaviour
 {
     public TMP_Text textoOro;
 
+
     void Update()
     {
         ActualizarTextoOro();
