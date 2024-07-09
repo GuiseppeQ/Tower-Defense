@@ -4,54 +4,79 @@ using UnityEngine;
 
 public class EnemyStateMachine : MonoBehaviour
 {
-    public enum DenfenderState
+    public enum DefenderState
     {
         Idle,
         Walking,
         Attack,
         Died,
     }
-    public DenfenderState State;
+
+    public DefenderState State;
     public float range;
     public LayerMask layerMask;
     public EnemyMovement enemyMovement;
     public Animator animator;
-    public EnemyHealth vida;
+    public EnemyHealth enemyHealth;  // Asegúrate de tener una referencia a EnemyHealth
+    public EnemyAtack enemyAttack;  // Asegúrate de tener una referencia a EnemyAttack
 
+    private float nextAttackTime;
+    public float attackCooldown = 1f; // Tiempo en segundos entre ataques
 
-    // Start is called before the first frame update
     void Start()
     {
-        State = DenfenderState.Walking;
+        nextAttackTime = Time.time;
+        State = DefenderState.Walking;
         animator = GetComponent<Animator>();
+
+        if (enemyMovement == null)
+        {
+            enemyMovement = GetComponent<EnemyMovement>();
+        }
+
+        // Obtener la referencia a EnemyHealth específica de este enemigo
+        enemyHealth = GetComponent<EnemyHealth>();
+
+        // Obtener la referencia a EnemyAttack específica de este enemigo
+        enemyAttack = GetComponent<EnemyAtack>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (State == DenfenderState.Walking)
+        RaycastHit2D hit2D = Physics2D.Raycast(transform.position, Vector2.left, range, layerMask);
+
+        if (State == DefenderState.Walking)
         {
-            RaycastHit2D hit2D = Physics2D.Raycast(transform.position, Vector2.right, range, layerMask);
             if (hit2D.collider != null)
             {
-
-                State = DenfenderState.Attack;
+                State = DefenderState.Attack;
                 enemyMovement.enabled = false;
                 animator.SetTrigger("Atack");
             }
-           
         }
-        //if (State == DenfenderState.Attack)
-        //{
-            
-        //    State = DenfenderState.Walking;
-        //}
 
-        if (vida.health < 0)
+        if (State == DefenderState.Attack)
         {
-            State = DenfenderState.Died;
+            if (Time.time >= nextAttackTime)
+            {
+                // Llamar al método DealDamageToDefender en EnemyAttack específico de este enemigo
+                enemyAttack.DealDamageToDefender();
+                nextAttackTime = Time.time + attackCooldown; // Actualizar el tiempo para el próximo ataque
+            }
+            State = DefenderState.Walking;
+        }
+
+        if (enemyHealth.health < 0)
+        {
+            State = DefenderState.Died;
             animator.SetTrigger("Dead");
         }
+
+        if (hit2D.collider == null)
+        {
+            enemyMovement.speed = enemyMovement.speedOriginal;
+        }
+
         enemyMovement.enabled = true;
     }
 }

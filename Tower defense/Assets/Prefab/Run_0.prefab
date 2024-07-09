@@ -16,7 +16,8 @@ GameObject:
   - component: {fileID: 8563857769534533958}
   - component: {fileID: 1413765071608463189}
   - component: {fileID: -6145317203583580619}
-  m_Layer: 0
+  - component: {fileID: 4745322759649351584}
+  m_Layer: 6
   m_Name: Run_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81,7 +82,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 90847846, guid: 064f5a20714bd9e44b99d1c7f114b843, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 2.1875, y: 2.25}
@@ -171,9 +172,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 3
+  damageTower: 1
   attackCooldown: 1
   animator: {fileID: 4056050159772818756}
-  damage1: 0
+  enemyMovement: {fileID: -6145317203583580619}
 --- !u!114 &1413765071608463189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,7 +189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  maxHealth: 30
+  maxHealth: 15
 --- !u!114 &-6145317203583580619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -203,3 +205,23 @@ MonoBehaviour:
   rb: {fileID: 2830986496566083385}
   speed: 5
   speedOriginal: 5
+--- !u!114 &4745322759649351584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4056050159772818759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881db76741013644999c7b7e51f63620, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  State: 1
+  range: 1.5
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  enemyMovement: {fileID: -6145317203583580619}
+  animator: {fileID: 4056050159772818756}
+  enemyhealth: {fileID: 1413765071608463189}

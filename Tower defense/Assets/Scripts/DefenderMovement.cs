@@ -8,23 +8,15 @@ public class DefenderMovement : MonoBehaviour
     public float speed;
     public float speedOriginal;
 
-    private void Start()
+    void Start()
     {
         speed = speedOriginal;
     }
 
-    private void FixedUpdate()
+    void FixedUpdate()
     {
         rb.velocity = Vector2.right * speed;
     }
 
-    public void SetSpeed(float newSpeed)
-    {
-        speed = newSpeed;
-    }
 
-    public void ResetSpeed()
-    {
-        speed = speedOriginal;
-    }
 }

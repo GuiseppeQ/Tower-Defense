@@ -5,34 +5,28 @@ using UnityEngine;
 public class DefenderAttack : MonoBehaviour
 {
     public float damage;
-    public float attackCooldown = 1f; // Tiempo en segundos entre ataques
-    private float nextAttackTime;
     public Animator animator;
     public DefenderMovement defenderMovement;
+    public EnemyHealth enemyHealth;
 
-    private void Start()
+    void Start()
     {
         animator = GetComponent<Animator>();
-        nextAttackTime = Time.time;
+
+        enemyHealth = FindObjectOfType<EnemyHealth>();
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
+    void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.gameObject.GetComponent<EnemyHealth>() && Time.time >= nextAttackTime)
-        {
-            defenderMovement.SetSpeed(0); // Detener el movimiento
-            collision.gameObject.GetComponent<EnemyHealth>().health -= damage;
-            animator.SetTrigger("Atack");
-            nextAttackTime = Time.time + attackCooldown; // Actualizar el tiempo para el próximo ataque
-        }
-    }
-
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        // Reanudar la velocidad original cuando el Defender salga de la colisión
         if (collision.gameObject.GetComponent<EnemyHealth>())
         {
-            defenderMovement.ResetSpeed();
+            defenderMovement.speed = 0;
         }
+    }
+
+    public void DealDamageToEnemy()
+    {
+        enemyHealth.health -= damage;
+        // Realizar otras acciones como reproducir animaciones, etc.
     }
 }

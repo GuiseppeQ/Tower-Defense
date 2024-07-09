@@ -17,9 +17,9 @@ GameObject:
   - component: {fileID: 5202887115321286859}
   - component: {fileID: 1608466245079432814}
   - component: {fileID: -7557503235947461369}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ronin
-  m_TagString: Untagged
+  m_TagString: Rey
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -125,8 +125,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 5
-  attackCooldown: 1
   animator: {fileID: 4396644086684504185}
+  defenderMovement: {fileID: 5157829821399176085}
+  enemyHealth: {fileID: 0}
 --- !u!114 &5157829821399176085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,6 +163,8 @@ MonoBehaviour:
   defenderMovement: {fileID: 5157829821399176085}
   animator: {fileID: 4396644086684504185}
   vida: {fileID: 5202887115321286859}
+  attack: {fileID: 0}
+  attackCooldown: 1
 --- !u!114 &5202887115321286859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,7 +178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  maxHealth: 30
+  maxHealth: 40
 --- !u!50 &1608466245079432814
 Rigidbody2D:
   serializedVersion: 4
