@@ -168,7 +168,6 @@ MonoBehaviour:
   defenderMovement: {fileID: 188368273}
   animator: {fileID: 7769735449677129563}
   vida: {fileID: 2851458752393630124}
-  attack: {fileID: 1363555035}
   rangeOriginal: 1.5
 --- !u!114 &1363555035
 MonoBehaviour:
@@ -183,11 +182,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 7
-  damageTower: 0
+  damageTower: 1
   attackCooldown: 1
   animator: {fileID: 7769735449677129563}
   defenderMovement: {fileID: 188368273}
-  stateMachine: {fileID: 188368274}
+  defenderStateMachine: {fileID: 0}
 --- !u!114 &2851458752393630124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -202,6 +201,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 0
   maxHealth: 25
+--- !u!114 &7712594255884632456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7769735449677129556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09ebf4c9a6a9b0840997f5ac8874df22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  extraGravity: 25
+  rayLength: 0.9
+  defenderMovement: {fileID: 0}
 --- !u!95 &7769735449677129563 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 1435289838652132861, guid: 113f6708fe6862243a2c3a287a39647d, type: 3}

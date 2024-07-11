@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -7036497719317297567}
   - component: {fileID: 4166881966896666380}
   - component: {fileID: -1679885323472413009}
+  - component: {fileID: 722754118913459086}
   - component: {fileID: -2185703645914811094}
   - component: {fileID: 2086354123969191338}
   m_Layer: 7
@@ -125,10 +126,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 25
+  damageTower: 4
   attackCooldown: 1
   animator: {fileID: 7662710855655535652}
   defenderMovement: {fileID: -7036497719317297567}
   defenderStateMachine: {fileID: 0}
+  Base: 0
 --- !u!114 &-7036497719317297567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,6 +167,7 @@ MonoBehaviour:
   defenderMovement: {fileID: -7036497719317297567}
   animator: {fileID: 7662710855655535652}
   vida: {fileID: -1679885323472413009}
+  defenderAttack: {fileID: 0}
   rangeOriginal: 1.5
 --- !u!114 &-1679885323472413009
 MonoBehaviour:
@@ -178,7 +182,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  maxHealth: 15
+  maxHealth: 130
+--- !u!114 &722754118913459086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7662710855655535653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09ebf4c9a6a9b0840997f5ac8874df22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  extraGravity: 25
+  rayLength: 1.35
+  defenderMovement: {fileID: -7036497719317297567}
 --- !u!61 &-2185703645914811094
 BoxCollider2D:
   m_ObjectHideFlags: 0

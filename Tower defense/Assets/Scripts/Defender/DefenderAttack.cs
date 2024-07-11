@@ -11,6 +11,7 @@ public class DefenderAttack : MonoBehaviour
     public Animator animator;
     public DefenderMovement defenderMovement;
     public DefenderStateMachine defenderStateMachine;
+    public bool Base;
 
     void Start()
     {
@@ -24,6 +25,8 @@ public class DefenderAttack : MonoBehaviour
         if (collision.gameObject.GetComponent<TowerHealth>())
         {
             defenderMovement.speed = 7;
+            Base = true;
+
         }
 
         if (collision.gameObject.GetComponent<TowerEnemy>())
@@ -35,15 +38,17 @@ public class DefenderAttack : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.GetComponent<TowerHealth>())
-        {
+        { 
             defenderMovement.speed = defenderMovement.speedOriginal;
+            Base = false;
         }
     }
+   
     void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.GetComponent<EnemyHealth>() && Time.time >= nextAttackTime)
         {
-            defenderMovement.speed = 0.3f;
+            defenderMovement.speed = 0.5f;
             collision.gameObject.GetComponent<EnemyHealth>().health -= damage;
             animator.SetTrigger("Atack");
             nextAttackTime = Time.time + attackCooldown; // Actualizar el tiempo para el próximo ataque
@@ -57,9 +62,9 @@ public class DefenderAttack : MonoBehaviour
 
         if (collision.gameObject.GetComponent<DefenderMovement>() != null && collision.gameObject.GetComponent<DefenderMovement>().speed <= 0.7f)
         {
-            defenderMovement.speed = 0.3f;
+            defenderMovement.speed = 0.5f;
         }
-        else if (collision.gameObject.GetComponent<DefenderMovement>() != null && collision.gameObject.GetComponent<DefenderMovement>().speed > 0.3f)
+        else if (collision.gameObject.GetComponent<DefenderMovement>() != null && collision.gameObject.GetComponent<DefenderMovement>().speed > 0.7f)
         {
             defenderMovement.speed = defenderMovement.speedOriginal;
         }

@@ -243,6 +243,6 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
-  extraGravity: 10
+  extraGravity: 30
   rayLength: 1.1
   enemyMovement: {fileID: 0}

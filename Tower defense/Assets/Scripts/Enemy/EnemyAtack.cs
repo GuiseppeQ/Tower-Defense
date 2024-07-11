@@ -11,12 +11,14 @@ public class EnemyAtack : MonoBehaviour
     public Animator animator;
     public EnemyMovement enemyMovement;
     public EnemyStateMachine enemyStateMachine;
+    public EnemyHealth enemyHealth;
 
     void Start()
     {
         animator = GetComponent<Animator>();
         enemyMovement = GetComponent<EnemyMovement>(); // Asegura que enemyMovement no sea nulo
         enemyStateMachine = GetComponent<EnemyStateMachine>(); // Asegura que enemyStateMachine no sea nulo
+        enemyHealth = GetComponent<EnemyHealth>();
         nextAttackTime = Time.time;
     }
 
@@ -24,7 +26,7 @@ public class EnemyAtack : MonoBehaviour
     {
         if (collision.gameObject.GetComponent<VidaH>() && Time.time >= nextAttackTime)
         {
-            enemyMovement.speed = 0.1f;
+            enemyMovement.speed = 0.5f;
             collision.gameObject.GetComponent<VidaH>().health -= damage;
             animator.SetTrigger("Atack");
             nextAttackTime = Time.time + attackCooldown; // Actualizar el tiempo para el próximo ataque
@@ -36,11 +38,11 @@ public class EnemyAtack : MonoBehaviour
             }
         }
 
-        if (collision.gameObject.GetComponent<EnemyMovement>() != null && collision.gameObject.GetComponent<EnemyMovement>().speed <= 0.4f)
+        if (collision.gameObject.GetComponent<EnemyMovement>() != null && collision.gameObject.GetComponent<EnemyMovement>().speed <= 0.7f)
         {
-            enemyMovement.speed = 0.3f;
+            enemyMovement.speed = 0.5f;
         }
-        else if (collision.gameObject.GetComponent<EnemyMovement>() != null && collision.gameObject.GetComponent<EnemyMovement>().speed > 0.3f)
+        else if (collision.gameObject.GetComponent<EnemyMovement>() != null && collision.gameObject.GetComponent<EnemyMovement>().speed > 0.7f)
         {
             enemyMovement.speed = enemyMovement.speedOriginal;
         }
@@ -50,8 +52,11 @@ public class EnemyAtack : MonoBehaviour
     {
         if (collision.gameObject.GetComponent<TowerHealth>())
         {
-            collision.gameObject.GetComponent<TowerHealth>().currentHealth -= damageTower;
-            Destroy(gameObject);
+            if(enemyHealth.health >1)
+            {
+                collision.gameObject.GetComponent<TowerHealth>().currentHealth -= damageTower;
+                Destroy(gameObject);
+            }      
         }
         if (collision.gameObject.GetComponent<TowerEnemy>())
         {

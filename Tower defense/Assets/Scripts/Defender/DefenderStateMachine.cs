@@ -18,6 +18,7 @@ public class DefenderStateMachine : MonoBehaviour
     public DefenderMovement defenderMovement;
     public Animator animator;
     public VidaH vida;
+    public DefenderAttack defenderAttack;
    
 
     public float rangeOriginal;
@@ -36,7 +37,12 @@ public class DefenderStateMachine : MonoBehaviour
         {
             vida = GetComponent<VidaH>();
         }
-      
+        if (defenderAttack == null)
+        {
+            defenderAttack = GetComponent<DefenderAttack>();
+        }
+
+
     }
 
 
@@ -65,7 +71,13 @@ public class DefenderStateMachine : MonoBehaviour
         }
         if (hit2D.collider == null)
         {
-            
+           range = rangeOriginal;
+
+            if(defenderAttack.Base==true)
+            {
+                defenderMovement.speed = defenderMovement.speedOriginal;
+            }
+          ;
         }
         defenderMovement.enabled = true;
     }

@@ -70,10 +70,10 @@ public class EnemyStateMachine : MonoBehaviour
 
         if (hit2D.collider == null)
         {
+           range=rangeOriginal;
            
-           
+           //enemyMovement.speed = enemyMovement.speedOriginal;          
         }
-
         enemyMovement.enabled = true;
     }
 }
