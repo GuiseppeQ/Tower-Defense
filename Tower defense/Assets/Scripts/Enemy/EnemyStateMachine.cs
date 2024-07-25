@@ -62,10 +62,11 @@ public class EnemyStateMachine : MonoBehaviour
             State = DefenderState.Walking;
         }
 
-        if (enemyHealth.health < 0)
+        if (enemyHealth.health <= 0)
         {
             State = DefenderState.Died;
             animator.SetTrigger("Dead");
+            Oro.oroActual += 0.001f;
         }
 
         if (hit2D.collider == null)

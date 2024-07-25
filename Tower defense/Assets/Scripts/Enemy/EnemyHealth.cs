@@ -6,6 +6,7 @@ public class EnemyHealth : MonoBehaviour
 {
     public float health;
     public float maxHealth;
+    public float oroGratis;
 
     void Start()
     {
@@ -23,6 +24,7 @@ public class EnemyHealth : MonoBehaviour
     IEnumerator WaitForDead()
     {
         yield return new WaitForSeconds(0.5f);
+        Oro.oroActual += oroGratis;
         Destroy(gameObject);
     }
 }

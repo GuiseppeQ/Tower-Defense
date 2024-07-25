@@ -26,7 +26,7 @@ public class EnemyAtack : MonoBehaviour
     {
         if (collision.gameObject.GetComponent<VidaH>() && Time.time >= nextAttackTime)
         {
-            enemyMovement.speed = 0.5f;
+            //enemyMovement.speed = 0.5f;
             collision.gameObject.GetComponent<VidaH>().health -= damage;
             animator.SetTrigger("Atack");
             nextAttackTime = Time.time + attackCooldown; // Actualizar el tiempo para el próximo ataque
@@ -38,14 +38,14 @@ public class EnemyAtack : MonoBehaviour
             }
         }
 
-        if (collision.gameObject.GetComponent<EnemyMovement>() != null && collision.gameObject.GetComponent<EnemyMovement>().speed <= 0.7f)
-        {
-            enemyMovement.speed = 0.5f;
-        }
-        else if (collision.gameObject.GetComponent<EnemyMovement>() != null && collision.gameObject.GetComponent<EnemyMovement>().speed > 0.7f)
-        {
-            enemyMovement.speed = enemyMovement.speedOriginal;
-        }
+        //if (collision.gameObject.GetComponent<EnemyMovement>() != null && collision.gameObject.GetComponent<EnemyMovement>().speed <= 0.7f)
+        //{
+        //    enemyMovement.speed = 0.5f;
+        //}
+        //else if (collision.gameObject.GetComponent<EnemyMovement>() != null && collision.gameObject.GetComponent<EnemyMovement>().speed > 0.7f)
+        //{
+        //    enemyMovement.speed = enemyMovement.speedOriginal;
+        //}
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

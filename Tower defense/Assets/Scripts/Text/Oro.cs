@@ -10,6 +10,7 @@ public class Oro : MonoBehaviour
     public float tasaIncrementoOro = 1f;
     public Transform puntoDespliegueTropa;
     public static float oroActual;
+    public static Oro instance { get; set;}
 
     void Start()
     {

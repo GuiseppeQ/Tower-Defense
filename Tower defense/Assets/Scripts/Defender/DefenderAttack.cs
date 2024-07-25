@@ -48,16 +48,10 @@ public class DefenderAttack : MonoBehaviour
     {
         if (collision.gameObject.GetComponent<EnemyHealth>() && Time.time >= nextAttackTime)
         {
-            defenderMovement.speed = 0.5f;
             collision.gameObject.GetComponent<EnemyHealth>().health -= damage;
             animator.SetTrigger("Atack");
             nextAttackTime = Time.time + attackCooldown; // Actualizar el tiempo para el próximo ataque
 
-            if (defenderStateMachine != null && collision.gameObject.GetComponent<EnemyHealth>().health <= 1)
-            {
-                defenderStateMachine.range = defenderStateMachine.rangeOriginal;
-                defenderMovement.speed = defenderMovement.speedOriginal;
-            }
         }
 
         if (collision.gameObject.GetComponent<DefenderMovement>() != null && collision.gameObject.GetComponent<DefenderMovement>().speed <= 0.7f)
